@@ -1,0 +1,86 @@
+{
+"trainName": "ModelTrain_351_vvvf_4th_P",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "vvvf_4th_P_351.mqo",
+      
+"textures": [
+["Under", "textures/312_vvvf_4th/Under.png", "AlphaBlend"],
+["Under_M", "textures/312_vvvf_4th/munder.png", "AlphaBlend"],
+["Door_out", "textures/351_vvvf_4th/Door_out.png", "AlphaBlend"],
+["Door_wall", "textures/312_vvvf_4th/Door_wall.png", "AlphaBlend"],
+["T_wall", "textures/312_vvvf_4th/T_wall.png", "AlphaBlend"],
+["Win", "textures/312_vvvf_4th/Win.png", "AlphaBlend"],
+["Aircon", "textures/312_vvvf_4th/Aircon.png", "AlphaBlend"],
+["door_sign", "textures/312_vvvf_4th/door_sign.png", "AlphaBlend"],
+["gray_1", "textures/312_vvvf_4th/gray_1.png", "AlphaBlend"],
+["gray_2", "textures/312_vvvf_4th/gray_2.png", "AlphaBlend"],
+["gray_3", "textures/312_vvvf_4th/gray_3.png", "AlphaBlend"],
+["gray_4", "textures/312_vvvf_4th/gray_4.png", "AlphaBlend"],
+["gray_5", "textures/312_vvvf_4th/gray_5.png", "AlphaBlend"],
+["gray_6", "textures/312_vvvf_4th/gray_6.png", "AlphaBlend"],
+["shadow", "textures/312_vvvf_4th/shadow.png", "AlphaBlend"],
+["speaker", "textures/312_vvvf_4th/speaker.png", "AlphaBlend"],
+["tongro", "textures/312_vvvf_4th/tongro.png", "AlphaBlend"],
+["winframe", "textures/312_vvvf_4th/winframe.png", "AlphaBlend"],
+["sub", "textures/312_vvvf_4th/sub.png", "AlphaBlend"],
+["item", "textures/312_vvvf_4th/item.png", "AlphaBlend"],
+["Door_in_L", "textures/312_vvvf_4th/Door_in_L.png", "AlphaBlend"],
+["Door_in_R", "textures/312_vvvf_4th/Door_in_R.png", "AlphaBlend"],
+["handle", "textures/312_vvvf_4th/handle.png", "AlphaBlend"],
+["Seat", "textures/351_vvvf_4th/Seat.png", "AlphaBlend"],
+["inside", "textures/312_vvvf_4th/inside.png", "AlphaBlend"],
+["roof_in_T", "textures/351_vvvf_4th/roof_in_T.png", "AlphaBlend"],
+["bottom_TC", "textures/312_vvvf_4th/bottom_TC.png", "AlphaBlend"],
+["in_light", "textures/312_vvvf_4th/in_light.png", "AlphaBlend"]],
+"rendererPath": "scripts/Render_vvvf_4th.js"
+   },
+
+
+
+
+
+"bogieModel2": { "modelFile": "SMRT_DT50.mqo",
+                   "textures": [
+["DT_50_1_", "textures/DT-50/DT-50(1).png"],
+["Foregrou", "textures/DT-50/gray(2).png"],
+["FrontCol", "textures/DT-50/gray(2).png"],
+["DT50_wide", "textures/DT-50/DT138shin.png"]]},
+
+
+"buttonTexture": "textures/351_vvvf_4th/button_351_vvvf_4th(P).png",
+
+"soundScriptPath": "scripts/sound_rotem_igbt.js",
+
+"sound_Horn": "sound_Korail_EMU:train.KR_horn",
+"sound_DoorOpen": "sound_Korail_EMU:train.elecdooropn",
+"sound_DoorClose": "sound_Korail_EMU:train.elecdoorcls",
+"sound_Announcement": [["DoorClosing1", "sound_Korail_EMU:train.KR_doorclswarn1"], ["DoorClosing2", "sound_Korail_EMU:train.KR_doorclswarn2"], ["Transfer", "sound_Korail_EMU:train.rtm_Eolssiguya"], ["Watchyourstep", "sound_Korail_EMU:train.rtm_tony_watchyourstep"]],
+ 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+"seatPos": [      	 [18, 0, -140, 2],	[18, 0, -95, 2],    [18, 0, -82, 2],    [18, 0, -75, 2],   [18, 0, -63, 2],
+                    	 [-18, 0, -140, 2],[-18, 0, -95, 2],   [-18, 0, -82, 2],   [-18, 0, -75, 2],  [-18, 0, -63, 2],
+      			
+        		[18, 0, -16, 2],    [18, 0, -3, 2],     [18, 0, 3, 2],     [18, 0, 16, 2],
+        		[-18, 0, -16, 2],   [-18, 0, -3, 2],    [-18, 0, 3, 2],    [-18, 0, 16, 2],
+        		
+          		[18, 0, 95, 2],    [18, 0, 82, 2],    [18, 0, 75, 2],   [18, 0, 63, 2], [18, 0, 140, 2],
+          		[-18, 0, 95, 2],   [-18, 0, 82, 2],   [-18, 0, 75, 2],  [-18, 0, 63, 2],[-18, 0, 140, 2]],
+
+"playerPos": [[0.0, 0.2, 9.0], [0.0, 0.2, -9.0]],
+"bogiePos": [[0.0, 0.0, 6.7], [0.0, 0.0, -6.7]],
+"trainDistance": 10,
+"notDisplayCab": true,
+"smoothing": true,
+"doCulling": true,
+"tags": "Korail",
+"maxSpeed": [0.36, 0.63, 1.05, 1.56],
+"accelerateion": 0.0020832,
+"accelerateions": [0.0012, 0.0016, 0.002, 0.002],
+"muteJointSound": true
+}

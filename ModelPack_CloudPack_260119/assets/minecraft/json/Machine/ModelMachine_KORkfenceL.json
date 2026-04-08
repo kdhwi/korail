@@ -1,0 +1,13 @@
+{
+  "name": "KORkfence-L",
+  "model": {
+      "modelFile": "ModelMachine_kfence_L.mqo",
+		"textures": [
+		["mat1", "textures/machine/fence3.png", "AlphaBlend"]]
+  },
+  "buttonTexture": "textures/machine/button_fence.png",
+  "renderAABB":[-3.0, 0.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "smoothing": true,
+  "doCulling": false}

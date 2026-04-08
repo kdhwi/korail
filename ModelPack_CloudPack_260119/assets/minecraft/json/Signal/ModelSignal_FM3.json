@@ -1,0 +1,12 @@
+{
+  "signalName": "PCP_FM3",
+  "model": {
+    "modelFile": "ModelSignal_FM3.mqo",
+    "textures": [["mat1", "textures/signal/FM3.png", "AlphaBlend Light"]],
+    "rendererPath": "scripts/RenderFM.js"
+  },
+  "buttonTexture": "textures/signal/button_FM.png",
+  "smoothing": false,
+  "doCulling": false,
+  "tags": "form"
+}

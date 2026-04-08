@@ -1,0 +1,14 @@
+{
+  "name": "busan2hopo",
+  "model": {
+      "modelFile": "JCBS_BusanSta2_Hopo.mqo",
+ 		"textures": [
+		["mat1", "textures/busta/button_bumet.png"]]
+	},
+		
+  "buttonTexture": "textures/busta/button_bumet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

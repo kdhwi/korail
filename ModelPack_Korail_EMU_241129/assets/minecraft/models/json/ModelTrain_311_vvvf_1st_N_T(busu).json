@@ -1,0 +1,111 @@
+{
+"trainName": "ModelTrain_311_vvvf_1st_N_T(busu)",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "vvvf_1st_T_311_T(busu).mqo",
+      
+"textures": [
+["shadow", "textures/311_jeohang_2nd_N/shadow.png", "AlphaBlend"],
+["T_wall", "textures/311_vvvf_1st_N/T_wall_busu.png"],
+["gray_1", "textures/311_jeohang_2nd_N/gray_1.png"],
+["gray_2", "textures/311_jeohang_2nd_N/gray_2.png"],
+["gray_3", "textures/311_jeohang_2nd_N/gray_3.png"],
+["gray_4", "textures/311_jeohang_2nd_N/gray_4.png"],
+["gray_5", "textures/311_jeohang_2nd_N/gray_5.png"],
+["gray_6", "textures/311_jeohang_2nd_N/gray_6.png"],
+["white", "textures/311_jeohang_2nd_N/white.png"],
+["Seat_n", "textures/311_jeohang_2nd_N/Seat_n.png"],
+["Seat_o", "textures/311_jeohang_2nd_N/Seat_o.png"],
+["bong", "textures/311_jeohang_2nd_N/bong.png"],
+["shelf_1", "textures/311_jeohang_2nd_N/shelf_1.png"],
+["shelf_2", "textures/311_jeohang_2nd_N/shelf_2.png"],
+["Door_in_L", "textures/311_jeohang_2nd_N/Door_in_L.png"],
+["Door_in_R", "textures/311_jeohang_2nd_N/Door_in_R.png"],
+["TC_under", "textures/311_jeohang_2nd_N/TC_under.png"],
+["Aircon", "textures/311_jeohang_2nd_N/Aircon.png"],
+["bottom_T", "textures/311_jeohang_2nd_N/bottom_T.png"],
+["handle", "textures/311_jeohang_2nd_N/handle.png"],
+["handle_2", "textures/311_jeohang_2nd_N/handle_2.png"],
+["back_in", "textures/311_jeohang_2nd_N/back_in.png"],
+["speaker", "textures/311_jeohang_2nd_N/speaker.png"],
+["door_sign", "textures/311_jeohang_2nd_N/door_sign.png"],
+["Tongro_door", "textures/311_jeohang_2nd_N/Tongro_door.png"],
+["roof_in_T", "textures/311_jeohang_2nd_N/roof_in_T.png"],
+["tongro", "textures/311_jeohang_2nd_N/tongro.png"]]
+   },
+
+
+"door_left": [
+    {
+        "objects": ["Door_L_L"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.66]],
+           "childParts": []
+    },
+    {
+        "objects": ["Door_L_R"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.66]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["Door_R_R"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.66]],
+           "childParts": []
+    },
+    {
+        "objects": ["Door_R_L"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.66]],
+        "childParts": []
+    }
+],
+
+
+
+
+
+"bogieModel2": { "modelFile": "KH90.mqo",
+                   "textures": [
+["kh90", "textures/KH90/kh90.png"]]},
+
+
+"buttonTexture": "textures/311_vvvf_1st_N/button_311_vvvf_1st_N_T(busu).png",
+
+"soundScriptPath": "scripts/Korail_emu_jeohang.js",
+
+"sound_Horn": "sound_Korail_EMU:train.KR_horn",
+"sound_DoorOpen": "sound_Korail_EMU:train.airdooropn",
+"sound_DoorClose": "sound_Korail_EMU:train.airdoorcls",
+"sound_Announcement": [["DoorClosing1", "sound_Korail_EMU:train.KR_doorclswarn1"], ["DoorClosing2", "sound_Korail_EMU:train.KR_doorclswarn2"], ["Transfer", "sound_Korail_EMU:train.rtm_Eolssiguya"], ["Watchyourstep", "sound_Korail_EMU:train.rtm_tony_watchyourstep"]],
+ 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+"seatPos": [      	 [18, 0, -140, 2],	[18, 0, -95, 2],    [18, 0, -82, 2],    [18, 0, -75, 2],   [18, 0, -63, 2],
+                    	 [-18, 0, -140, 2],[-18, 0, -95, 2],   [-18, 0, -82, 2],   [-18, 0, -75, 2],  [-18, 0, -63, 2],
+      			
+        		[18, 0, -16, 2],    [18, 0, -3, 2],     [18, 0, 3, 2],     [18, 0, 16, 2],
+        		[-18, 0, -16, 2],   [-18, 0, -3, 2],    [-18, 0, 3, 2],    [-18, 0, 16, 2],
+        		
+          		[18, 0, 95, 2],    [18, 0, 82, 2],    [18, 0, 75, 2],   [18, 0, 63, 2], [18, 0, 140, 2],
+          		[-18, 0, 95, 2],   [-18, 0, 82, 2],   [-18, 0, 75, 2],  [-18, 0, 63, 2],[-18, 0, 140, 2]],
+
+"playerPos": [[0.0, 0.2, 9.0], [0.0, 0.2, -9.0]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"trainDistance": 10,
+"notDisplayCab": true,
+"doCulling": true,
+"smoothing": true,
+"tags": "Korail",
+"maxSpeed": [0.36, 0.63, 1.05, 1.56],
+"accelerateions": [0.0012, 0.0016, 0.002, 0.002],
+"muteJointSound": true
+}

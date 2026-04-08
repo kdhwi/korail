@@ -1,0 +1,15 @@
+{
+  "name": "soeixtim",
+  "model": {
+      "modelFile": "seouloldmetro.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/oldseoulexit.png"],
+		["mat2", "textures/nsac/ohmyexit.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_soexitim.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

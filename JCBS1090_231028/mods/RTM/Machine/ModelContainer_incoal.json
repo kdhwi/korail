@@ -1,0 +1,10 @@
+{
+  "containerName": "incoal",
+  "containerModel": "incoal.mqo",
+  "containerTexture": "textures/chak/seoktan.png",
+	"buttonTexture": "textures/chak/button_seoktan.png",
+	"containerWidth": 2.49,
+	"containerHeight": 2.5,
+	"containerLength": 12.16,
+  "tags": "jcbs"
+}

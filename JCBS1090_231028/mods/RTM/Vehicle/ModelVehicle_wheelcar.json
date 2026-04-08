@@ -1,0 +1,16 @@
+{
+  "name": "wheelcar",
+	"model": {
+      "modelFile": "wheelbug.mqo",
+      "textures": [["wheel", "textures/chongal/wheelcolor.png", ""]]
+  },
+	"buttonTexture": "textures/chongal/button_wheel.png",
+	"vehicleType": "Car",
+	"size": [1.0, 1.0],
+	"playerPos": [[0.0, 0.6, 0.0]],
+	"smoothing": true,
+  "doCulling": true,
+	"changeYawOnStopping": true,
+  "accuracy": "LOW",
+  "tags": "wheelbug"
+}

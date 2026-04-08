@@ -1,0 +1,14 @@
+{
+  "name": "KORpsdtongja_17_end2",
+  "model": {
+      "modelFile": "ModelMachine_korpsd-17m_end2.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3_icn2.png", ""],["LEDbatang", "textures/machine/batang.png", ""]]
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_17m.png",
+
+  "machineType": "Gate",
+  "sound_Running": "",
+ "renderAABB":[-3.0, 0.0, -2.0, 3.0, 5.0, 2.0],
+  "doCulling": false,
+  "accuracy": "LOW"
+}

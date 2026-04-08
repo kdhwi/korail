@@ -1,0 +1,13 @@
+{
+  "railName": "1435mm_Crossing",
+  "railModel": "ModelRail_1435Crossing.mqo",
+  "railTexture": "textures/rail/largeRail1.png",
+	"buttonTexture": "textures/rail/button_1435mm_Crossing.png",
+	"polygonType": 4,
+	"defaultBallast": [{
+		"blockName": "carpet",
+		"blockMetadata": 7,
+		"height": 0.0625
+	}],
+	"allowCrossing": true
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Turnstile-3foot_",
+  "model": {
+      "modelFile": "ModelMachine_3bal2_.mqo",
+      "textures": [["default", "textures/machine/3bal.png", ""]]
+  },
+  "buttonTexture": "textures/machine/button_3bal.png",
+  "machineType": "Turnstile",
+  "sound_OnActivate": "sound_cloud2:machine.rtm_cloudcard",
+  "smoothing": true,
+  "doCulling": true,
+  "accuracy": "LOW"
+}

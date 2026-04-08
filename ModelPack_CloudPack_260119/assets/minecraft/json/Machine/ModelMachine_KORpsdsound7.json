@@ -1,0 +1,14 @@
+{
+  "name": "KORpsdsound_7",
+  "model": {
+      "modelFile": "ModelMachine_korpsd-soundblock.mqo",
+      "textures": [["default", "textures/machine/empty.png", ""]],
+      "rendererPath": "scripts/Cloud_RenderPSDN_soundparts.js"
+  },
+  "buttonTexture": "textures/machine/button_psdsound_yumi.png",
+  "machineType": "Gate",
+  "sound_Running": "",
+  "renderAABB":[-11.0, -1.0, -11.0, 11.0, 3.0, 11.0],
+  "doCulling": false,
+  "accuracy": "LOW"
+}

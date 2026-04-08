@@ -1,0 +1,31 @@
+{
+  "name": "KORpsdtongja_hqgw_TC2__even__HDG_R__uper",
+  "model": {
+      "modelFile": "Tongja/ModelMachine_korpsd-tongja_HQ_TC2.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3hq_gw.png", "Light"],
+	  ["LEDbase", "textures/machine/PSDLED_w.png", "Light"], 
+	  ["LEDbatang", "textures/machine/batang.png", ""], 
+	  ["Dochak", "textures/machine/PSDDochakwR.png", "Light"], 
+	  ["arrowR", "textures/machine/arrowblack.png", ""], 
+	  ["arrow", "textures/machine/empty.png", ""], 
+	  ["stopline", "textures/machine/PSD/stoplinearrow1.png", ""], 
+	  ["bisangdooR", "textures/machine/PSD/bisang_R.png", ""],
+	  ["yoryeong", "textures/machine/PSD/yoryeong.png", ""],
+	  ["foot", "textures/machine/PSD/step.png", ""],
+	  ["handle", "textures/machine/PSD/doorHandle.png", ""],
+	  ["pushbar", "textures/machine/PSD/pushbar.png", ""],
+	  ["locker", "textures/machine/PSD/locker.png", ""],
+	  ["danger", "textures/machine/PSD/danger.png", ""],
+	  ["right", "textures/machine/PSD/rightdoor.png", ""],
+	  ["left", "textures/machine/PSD/left_rev.png", ""],
+	  ["dest", "textures/machine/PSD/yeokmyeong.png", ""],
+	  ["wheel", "textures/machine/PSD/wheelchair.png", ""]
+	  ],
+      "rendererPath": "scripts/Cloud_RenderPSDN_tongja_hq.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_hq.png",
+  "renderAABB":[-11.0, -1.0, -11.0, 11.0, 9.0, 11.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "doCulling": true
+}

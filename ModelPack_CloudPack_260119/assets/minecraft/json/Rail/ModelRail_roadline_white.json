@@ -1,0 +1,17 @@
+
+{
+  "railName": "roadline_white",
+  "model": {
+      "modelFile": "line.mqo",
+      "textures": [["mat1", "textures/rail/whiteline.png", ""]]
+  },
+	"buttonTexture": "textures/rail/roadline.png",
+	"defaultBallast": [{
+		"blockName": "air",
+		"blockMetadata": 0,
+		"height": 0.0
+		
+	}],
+  "accuracy": "LOW",  "ballastWidth": 1, "allowCrossing": true,
+  "tags": "road"
+}

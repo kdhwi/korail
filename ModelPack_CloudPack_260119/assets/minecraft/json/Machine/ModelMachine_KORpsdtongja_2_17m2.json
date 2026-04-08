@@ -1,0 +1,15 @@
+{
+  "name": "KORpsdtongja_17_1L",
+  "model": {
+      "modelFile": "Tongja/ModelMachine_korpsd-tongja_17m2.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3_icn2.png", "Light"],["LEDbatang", "textures/machine/batang.png", ""], ["arrow", "textures/machine/arrowblack.png", ""], ["arrowR", "textures/machine/empty.png", ""], ["stopline", "textures/machine/PSD/stoplinearrow1.png", ""],["stopline1", "textures/machine/PSD/yellowline1.png", ""],["gap", "textures/machine/thegap.png", ""],["base", "textures/machine/PSDLED_org.png", "Light"]],
+      "rendererPath": "scripts/Cloud_RenderPSDN_tongja_17m.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_17m.png",
+  "renderAABB":[-10.0, -1.0, -10.0, 10.0, 9.0, 10.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": true,
+  "accuracy": "MEDIUM"
+}

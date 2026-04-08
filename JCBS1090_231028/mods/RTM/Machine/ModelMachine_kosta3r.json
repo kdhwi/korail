@@ -1,0 +1,17 @@
+{
+  "name": "kosta3r",
+  "model": {
+      "modelFile": "korailsta3.mqo",
+ 		"textures": [
+		["mat1", "textures/kosta/korailblank1r.png"],
+		["mat2", "textures/kosta/newsta.png"],
+		["mat3", "textures/kosta/korailblank3r.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_korstar3.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

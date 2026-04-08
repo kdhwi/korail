@@ -1,0 +1,10 @@
+{
+  "texture": "beomknrtransfer",
+  "height": 1,
+  "width": 3.0,
+  "depth": 0.1,
+  "frame": 1,
+  "animationCycle": 1,
+  "color" : 7635065,
+	"lightValue": 15
+}

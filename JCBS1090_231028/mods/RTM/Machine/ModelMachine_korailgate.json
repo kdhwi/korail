@@ -1,0 +1,17 @@
+{
+  "name": "korailgate",
+  "model": {
+      "modelFile": "korailgate.mqo",
+ 		"textures": [
+		["card", "textures/gate/card.png"],
+		["bluebase", "textures/gate/bluebase.png"],
+		["base", "textures/gate/base.png"],
+        ["door", "textures/gate/door.png"],
+		["scr", "textures/gate/scr.png"]]
+  },
+  "buttonTexture": "textures/gate/button_korailgate.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "busanmetsta2old_Or",
+  "model": {
+      "modelFile": "JCBS_BusanSta2_old.mqo",
+ 		"textures": [
+		["mat1", "textures/busta/busanyeok2.png"]]
+	},
+		
+  "buttonTexture": "textures/busta/button_bumet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

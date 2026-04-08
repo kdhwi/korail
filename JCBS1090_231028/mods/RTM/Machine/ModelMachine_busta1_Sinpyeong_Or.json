@@ -1,0 +1,14 @@
+{
+  "name": "busanmetsta1_Sinpyeong_Or",
+  "model": {
+      "modelFile": "JCBS_BusanSta1_Sinpyeong.mqo",
+ 		"textures": [
+		["mat1", "textures/busta/busanyeok.png"]]
+	},
+		
+  "buttonTexture": "textures/busta/button_bumet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

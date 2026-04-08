@@ -1,0 +1,106 @@
+{
+
+"trainName": "CloudPack_KRVRDC_Mc",
+
+"trainType": "DC",
+
+"trainModel2": { "modelFile": "ModelTrain_KRVRDC_Mc.mqo",
+"textures": [
+		  ["base", "textures/train/KRVRDC/Mc.png"],
+["in", "textures/train/KRVRDC/in.png"],
+["wg", "textures/train/KRVRDC/wg.png"],
+["front", "textures/train/KRVRDC/McF.png"],
+["dw1", "textures/train/KRVRDC/McDW1.png"],
+["dw2", "textures/train/KRVRDC/McDW2.png"],
+["dw3", "textures/train/KRVRDC/McDW3.png"],
+["w", "textures/train/KRVRDC/W1.png"],
+["badakmit", "textures/train/KRVRDC/Badakmit.png"],
+		  ["oksaek", "textures/train/KRVRDC/oksaek.png"],
+		  ["hoesaek", "textures/train/KRVRDC/hoesaek.png"],
+		  ["gyedan", "textures/train/KRVRDC/gyedan.png"],
+		  ["indoor", "textures/train/KRVRDC/indoor.png", "AlphaBlend"],
+		  ["chair", "textures/train/KRVRDC/chair.png"],
+		  ["chair_red", "textures/train/KRVRDC/chair_red.png"],
+		  ["hita", "textures/train/KRVRDC/hita.png"],
+		  ["driverdoor", "textures/train/KRVRDC/driverdoor.png"],
+["perdoor", "textures/train/KRVRDC/perdoor.png"],
+["sub", "textures/train/KRVRDC/sub.png"],
+["roof", "textures/train/KRVRDC/roof.png", "Light"],
+["light", "textures/train/KRVRDC/light.png", "Light"],
+["light_offonly", "textures/train/KRVRDC/lightoffonly.png"],
+["sk", "textures/train/KRVRDC/sk.png"],
+["driverdoor_in", "textures/train/KRVRDC/driverdoor_in.png"],
+		  ["subside", "textures/train/KRVRDC/subside.png"],
+		  ["drivergreen", "textures/train/KRVRDC/drivergreen.png"],
+		  ["keoteun", "textures/train/KRVRDC/keoteun.png"],
+["dest", "textures/train/KRVRDC/dest.png"],
+		  ["wiper", "textures/train/KRVRDC/wiper.png"],
+		  ["sidemt", "textures/train/KRVRDC/sidemt.png"],
+["base2", "textures/train/KRVRDC/KRVCDCMC_Flower.png"],
+["badakmit2", "textures/train/KRVRDC/Badakmit.png"],
+["hoesaek2", "textures/train/KRVRDC/hoesaek.png"],
+["sitside", "textures/train/KRVRDC/sitside.png"],
+["black", "textures/train/KRVRDC/black.png"],
+["skirt", "textures/train/KRVRDC/skirt.png"],
+["Front2", "textures/train/KRVRDC/Front_Flower.png"],
+["win", "textures/train/KRVRDC/win.png", "AlphaBlend"],
+ ["gray_1", "textures/train/KRVRDC/gray_1.png"],
+          ["gray_2", "textures/train/KRVRDC/gray_2.png"],
+          ["gray_3", "textures/train/KRVRDC/gray_3.png"],
+          ["gray_4", "textures/train/KRVRDC/gray_4.png"],
+          ["gray_5", "textures/train/KRVRDC/gray_5.png"],
+["white", "textures/train/KRVRDC/white.png"],
+["light_main", "textures/train/KRVRDC/main.png","Light"]
+		  ],
+		"rendererPath": "scripts/RenderKRVRDC.js"
+   },
+
+"bogieModel2": { "modelFile": "ModelBogie_KRVRDC.mqo",
+                   "textures": [["mat1", "textures/train/KRVRDC/bogie.png"]]},
+
+"buttonTexture": "textures/train/KRVRDC/button.png",
+
+  "sound_Stop": "train.rtm_dc40r_stn",
+  "sound_S_A": "train.rtm_dc40r_go-a",
+  "sound_Acceleration": "train.rtm_dc40r_a",
+  "sound_Deceleration": "train.rtm_dc40r_i",
+  "sound_D_S": "train.rtm_dc40r_i-stop",
+  "sound_BrakeRelease": "train.brakeR_w",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_Horn": "sound_cloud2:train.rtm_rdchorn",
+
+"sound_DoorOpen": "sound_cloud2:train.rtm_k1998open",
+"sound_DoorClose": "sound_cloud2:train.rtm_k1998close",
+  
+  
+"sound_Announcement": [["Eolindal", "sound_cloud2:train.rtm_Eolindal"], ["Station(Voice)", "sound_cloud2:train.rtm_rdcstn"]],
+
+"rollsignTexture": "textures/train/KRV1998/341/led.png",
+"rollsignNames": ["Mugunghwa", "E. Daegu > Masan", "E. Daegu < Masan", "E. Daegu > Bujeon", "E. Daegu < Bujeon", "E. Daegu > Jinju", "E. Daegu < Jinju", "E. Daegu > Taehwagang", "E. Daegu < Taehwagnag", "Pohang > E. Daegu", "Pohang < E. Daegu", "Gwangju Shuttle", "Group travel train"],
+"rollsigns": [
+	{
+    "uv": [0.0, 0.5, 0.0, 1.0],
+    "pos": [
+    [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+	}
+],
+
+"slotPos": [
+	[0.93, 0, 6.93, 2],   [0.93, 0, 5.97, 2],   [0.93, 0, 5.01, 2],   [0.93, 0, 4.05, 2], 
+	[0.93, 0, 3.09, 2],   [0.93, 0, 2.13, 2],   [0.93, 0, 1.17, 2],   [0.93, 0, 0.21, 2], 
+	[0.93, 0, -0.75, 2],  [0.93, 0, -1.71, 2],  [0.93, 0, -2.67, 2],  [0.93, 0, -3.63, 2], 
+	[-0.93, 0, 6.93, 2],  [-0.93, 0, 5.97, 2],  [-0.93, 0, 5.01, 2],  [-0.93, 0, 4.05, 2], 
+	[-0.93, 0, 3.09, 2],  [-0.93, 0, 2.13, 2],  [-0.93, 0, 1.17, 2],  [-0.93, 0, 0.21, 2], 
+	[-0.93, 0, -0.75, 2], [-0.93, 0, -1.71, 2], [-0.93, 0, -2.67, 2], [-0.93, 0, -3.63, 2], 
+	
+	[0.93, 0, -6.18, 2],  [0.93, 0, -7.32, 2]
+],
+
+"customIconTexture": "minecraft:textures/train/GEC/icon_rdc.png",
+"playerPos": [[0.8, 0.2, 9.1], [-0.8, 0.2, 9.1]],
+"bogiePos": [[0.0, 0.0, 7.3], [0.0, 0.0, -7.3]],
+"maxSpeed": [0.36, 0.63, 1.05, 1.2, 1.68],
+"trainDistance": 10.75,
+"doCulling": true,
+"smoothing": true
+}

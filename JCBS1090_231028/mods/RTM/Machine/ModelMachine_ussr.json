@@ -1,0 +1,15 @@
+{
+  "name": "ussrnatgamangchi",
+  "model": {
+      "modelFile": "ussrnatgamangchi.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/ussrnatgamangchi.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/nsac/button_ussrcccp.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

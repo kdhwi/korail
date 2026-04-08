@@ -1,0 +1,16 @@
+{
+  "name": "smrtgatekorail",
+  "model": {
+      "modelFile": "ModelMachine_SMRT2T.mqo",
+ 		"textures": [
+		["base", "textures/gate/gatebase.png"],
+		["bluebase", "textures/gate/newbluebase.png"],
+		["card", "textures/gate/RPcard.png"],
+        ["LED", "textures/gate/SMRT2TLED.png"]]
+  },
+  "buttonTexture": "textures/gate/button_korailgate3.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

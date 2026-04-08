@@ -1,0 +1,15 @@
+{
+  "name": "KORpsddajung3goleg-150__L",
+  "model": {
+      "modelFile": "ModelMachine_korpsd_dajung2.mqo",
+      "textures": [["default", "textures/machine/korpsd3_go.png", "Light"]],
+      "rendererPath": "scripts/Cloud_RenderPSD_dajung2_legacy.js"
+  },
+  "buttonTexture": "textures/machine/button_psd_col_leg.png",
+  "renderAABB":[-3.0, -1.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false,
+  "accuracy": "LOW"
+}

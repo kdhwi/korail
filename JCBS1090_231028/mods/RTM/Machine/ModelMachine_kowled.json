@@ -1,0 +1,15 @@
+{
+  "name": "kowled",
+  "model": {
+      "modelFile": "kopled1.mqo",
+ 		"textures": [
+		["mat1", "textures/kosta/soyukaya.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_soyukaya1.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

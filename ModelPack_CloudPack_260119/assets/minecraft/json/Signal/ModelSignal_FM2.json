@@ -1,0 +1,12 @@
+{
+  "signalName": "PCP_FM2",
+  "model": {
+    "modelFile": "ModelSignal_FM2.mqo",
+    "textures": [["mat1", "textures/signal/FM2.png", "Light"]],
+    "rendererPath": "scripts/RenderFM.js"
+  },
+  "buttonTexture": "textures/signal/button_FM.png",
+  "smoothing": false,
+  "doCulling": false,
+  "tags": "form"
+}

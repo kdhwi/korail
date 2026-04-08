@@ -1,0 +1,12 @@
+{
+  "name": "carlimit",
+  "model": {
+      "modelFile": "ModelSignal_carlimit.mqo",
+      "textures": [["default", "textures/signal/carlimit.png", ""]]
+  },
+  "buttonTexture": "textures/signal/button_carlimit.png",
+  "machineType": "Gate",
+  "smoothing": true,
+  "doCulling": true,
+  "accuracy": "LOW"
+}

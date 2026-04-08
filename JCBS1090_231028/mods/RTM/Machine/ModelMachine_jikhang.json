@@ -1,0 +1,15 @@
+{
+  "name": "jikhang",
+  "model": {
+      "modelFile": "jikhang.mqo",
+ 		"textures": [
+		["sta", "textures/pc28k/jik.png"]]
+	},
+		
+  "buttonTexture": "textures/pc28k/button_jikhang.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW",
+  "doCulling": true
+}

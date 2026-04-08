@@ -1,0 +1,126 @@
+{
+"trainName": "ModelTrain_351_vvvf_1st_N_TC",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "vvvf_1st_TC_351.mqo",
+      
+"textures": [
+["Front_win", "textures/351_vvvf_1st_N/Front_win.png", "AlphaBlend"],
+["Front_win_out", "textures/351_vvvf_1st_N/Front_win_out.png", "AlphaBlend"],
+["Door_out", "textures/351_vvvf_1st_N/Door_out.png", "AlphaBlend"],
+["Door_wall", "textures/351_vvvf_1st_N/Door_wall.png", "AlphaBlend"],
+["Skirt", "textures/341_vvvf_1st/Skirt.png", "AlphaBlend"],
+["shadow", "textures/341_vvvf_1st/shadow.png", "AlphaBlend"],
+["TC_Front", "textures/351_vvvf_1st_N/TC_Front.png", "AlphaBlend"],
+["TC_wall_R", "textures/351_vvvf_1st_N/TC_wall_R.png", "AlphaBlend"],
+["TC_wall_L", "textures/351_vvvf_1st_N/TC_wall_L.png", "AlphaBlend"],
+["gray_1", "textures/341_vvvf_1st/gray_1.png", "AlphaBlend"],
+["gray_2", "textures/341_vvvf_1st/gray_2.png", "AlphaBlend"],
+["gray_3", "textures/341_vvvf_1st/gray_3.png", "AlphaBlend"],
+["gray_4", "textures/341_vvvf_1st/gray_4.png", "AlphaBlend"],
+["gray_5", "textures/341_vvvf_1st/gray_5.png", "AlphaBlend"],
+["gray_6", "textures/341_vvvf_1st/gray_6.png", "AlphaBlend"],
+["white", "textures/341_vvvf_1st/white.png", "AlphaBlend"],
+["Seat_n", "textures/341_vvvf_1st/Seat_n.png", "AlphaBlend"],
+["Seat_o", "textures/341_vvvf_1st/Seat_o.png", "AlphaBlend"],
+["bong", "textures/341_vvvf_1st/bong.png", "AlphaBlend"],
+["shelf_1", "textures/341_vvvf_1st/shelf_1.png", "AlphaBlend"],
+["shelf_2", "textures/341_vvvf_1st/shelf_2.png", "AlphaBlend"],
+["Door_in_L", "textures/341_vvvf_1st/Door_in_L.png", "AlphaBlend"],
+["Door_in_R", "textures/341_vvvf_1st/Door_in_R.png", "AlphaBlend"],
+["Under", "textures/341_vvvf_1st/Under.png", "AlphaBlend"],
+["Aircon", "textures/341_vvvf_1st/Aircon.png", "AlphaBlend"],
+["roof_in_T", "textures/341_vvvf_1st/roof_in_T.png", "AlphaBlend"],
+["bottom_TC", "textures/341_vvvf_1st/bottom_TC.png", "AlphaBlend"],
+["Panel_1", "textures/341_vvvf_1st/Panel_1.png", "AlphaBlend"],
+["Panel_2", "textures/341_vvvf_1st/Panel_2.png", "AlphaBlend"],
+["handle", "textures/341_vvvf_1st/handle.png", "AlphaBlend"],
+["handle_2", "textures/341_vvvf_1st/handle_2.png", "AlphaBlend"],
+["back_in", "textures/341_vvvf_1st/back_in.png", "AlphaBlend"],
+["TC_in", "textures/341_vvvf_1st/TC_in.png", "AlphaBlend"],
+["speaker", "textures/341_vvvf_1st/speaker.png", "AlphaBlend"],
+["door_sign", "textures/341_vvvf_1st/door_sign.png", "AlphaBlend"],
+["green_1", "textures/341_vvvf_1st/green_1.png"],
+["sunvisor", "textures/341_vvvf_1st/sunvisor.png"],
+["signboard", "textures/341_vvvf_1st/signboard.png"],
+["signboard_2", "textures/341_vvvf_1st/signboard_2.png"],
+["headlight", "textures/341_vvvf_1st/headlight.png", "Light"]]
+   },
+
+
+"door_left": [
+    {
+        "objects": ["Door_L_L"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.66]],
+           "childParts": []
+    },
+    {
+        "objects": ["Door_L_R"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.66]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["Door_R_R"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.66]],
+           "childParts": []
+    },
+    {
+        "objects": ["Door_R_L"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.66]],
+        "childParts": []
+    }
+],
+
+
+
+
+
+"bogieModel2": { "modelFile": "SMRT_DT50.mqo",
+                   "textures": [
+["DT_50_1_", "textures/DT-50/DT-50(1).png"],
+["Foregrou", "textures/DT-50/gray(2).png"],
+["FrontCol", "textures/DT-50/gray(2).png"],
+["DT50_wide", "textures/DT-50/DT138shin.png"]]},
+
+
+"buttonTexture": "textures/351_vvvf_1st_N/button_351_vvvf_1st_N(TC).png",
+
+"soundScriptPath": "scripts/Korail_emu_toshibaGTO.js",
+
+"sound_Horn": "sound_Korail_EMU:train.KR_horn",
+"sound_DoorOpen": "sound_Korail_EMU:train.KR_airdooropen",
+"sound_DoorClose": "sound_Korail_EMU:train.KR_airdoorclose",
+"sound_Announcement": [["DoorClosing1", "sound_Korail_EMU:train.KR_doorclswarn1"], ["DoorClosing2", "sound_Korail_EMU:train.KR_doorclswarn2"], ["Transfer", "sound_Korail_EMU:train.rtm_Eolssiguya"], ["Watchyourstep", "sound_Korail_EMU:train.rtm_tony_watchyourstep"]],
+ 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+"seatPos": [      	 [18, 0, -140, 2],	[18, 0, -94, 2],    [18, 0, -82, 2],    [18, 0, -75, 2],   [18, 0, -64, 2],
+                    	 [-18, 0, -140, 2],[-18, 0, -94, 2],   [-18, 0, -82, 2],   [-18, 0, -75, 2],  [-18, 0, -64, 2],
+      			
+        		[18, 0, -16, 2],    [18, 0, -3, 2],     [18, 0, 3, 2],     [18, 0, 16, 2],
+        		[-18, 0, -16, 2],   [-18, 0, -3, 2],    [-18, 0, 3, 2],    [-18, 0, 16, 2],
+          		[18, 3, 94, 2],     
+          		   [-18, 3, 94, 2]],
+
+"playerPos": [[0.177, -0.03, 8.5], [0.0, 0.2, -9.0]],
+"bogiePos": [[0.0, 0.0, 7.1], [0.0, 0.0, -7.0]],
+"trainDistance": 10.3,
+"notDisplayCab": true,
+"smoothing": true,
+"doCulling": true,
+"tags": "Korail",
+"maxSpeed": [0.36, 0.63, 1.05, 1.56],
+"accelerateions": [0.0012, 0.0016, 0.002, 0.002],
+"muteJointSound": true
+}

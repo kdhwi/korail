@@ -1,0 +1,14 @@
+{
+  "name": "KORpsdtongja_air_2C",
+  "model": {
+      "modelFile": "Tongja/ModelMachine_korpsd-tongja_middle2noAny.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3_air.png", "Light"],["stopline", "textures/machine/PSD/stoplinearrow1.png", ""]],
+      "rendererPath": "scripts/Cloud_RenderPSDN_tongja.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_air.png",
+  "renderAABB":[-11.0, -1.0, -11.0, 11.0, 9.0, 11.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false
+}

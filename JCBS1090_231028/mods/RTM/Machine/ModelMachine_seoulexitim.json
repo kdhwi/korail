@@ -1,0 +1,18 @@
+{
+  "name": "seoulexitim",
+  "model": {
+      "modelFile": "beoexitem.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/exitim.png"],
+		["mat2", "textures/nsac/thisiswithe.png"],
+        ["mat3", "textures/nsac/ohmyexit.png"],		
+		["mat4", "textures/nsac/exitim2.png"],
+		["mat5", "textures/nsac/nsacstop.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_SMRTSMPS.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

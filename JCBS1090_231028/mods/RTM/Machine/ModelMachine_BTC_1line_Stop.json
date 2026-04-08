@@ -1,0 +1,14 @@
+{
+  "name": "BTC_1line_Stop",
+  "model": {
+      "modelFile": "BTC_1line_Stop.mqo",
+ 		"textures": [
+		["mat1", "textures/busta/busanstop.png"]]
+	},
+		
+  "buttonTexture": "textures/busta/button_bustop.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,18 @@
+{
+  "signalName": "2flaphangseon",
+  "signalModel": "ModelSignal_2flap.mqo",
+  "signalTexture": "textures/Signal/2lineflaps.png",
+	"lightTexture": "textures/Signal/beomnaelight2.png",
+	"buttonTexture": "textures/Signal/button_2flap.png",
+  "modelPartsFixture": {
+  	"objects": ["ghost"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+  "modelPartsBody": {
+  	"objects": ["body", "pole", "light1"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+	"lights": [
+		"S(1) I(0) P(light1)"	],
+	"rotateBody": true
+}

@@ -1,0 +1,111 @@
+{
+"trainName": "korail1088TC1",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "Korail1088tc1.mqo",
+      
+"textures": [
+["base", "textures/train/korail1082/korail1088tc1.png"],
+
+          ["door_front", "textures/train/korail1082/korail1088tc_doorF.png"],
+
+          ["door_back", "textures/train/korail1082/korail1088tc_doorB.png"],
+
+          ["pole", "textures/train/korail1082/kitong.png"],
+		  
+		  ["sitred", "textures/train/korail1082/sit.png"],
+		  
+		  ["sitgray", "textures/train/korail1082/sit2.png"],
+		  
+		  ["air", "textures/train/korail1082/airc.png"],
+		  
+		  ["son", "textures/train/korail1082/wrsoviet.png"],
+		  
+		  ["1088s", "textures/train/korail1082/1088s.png"],
+		  
+		  ["habu", "textures/train/korail1082/tcunder.png"]]
+		  
+   },
+
+
+
+"bogieModel2": { "modelFile": "ModelBogie_DT22.mqo",
+                   "textures": [["default", "textures/train/DT138.png"]]},
+
+"buttonTexture": "textures/train/korail1082/button_korail1090new.png",
+
+"rollsignTexture": "textures/train/korail1082/rollsign_napjak.png",
+"rollsignNames": ["Down",  "Fowarding", "Trail run", "Incheon", "Juan", "Bupyeong", "Guro", "Seongbuk", "Uijeongbu", "Cheongnyangni", "Uijeongbu Bukbu", "Seoul Station", "Byeongjeom", "Cheonan", "Suwon", "Yongsan", "Deokso", "Juan Express", "Incheon Express", "Suwon Express", "Yongsan Express", "Dongincheon Express", "Guro Express", "Bupyeong Express", "info"],
+"rollsigns": [
+ {
+  "uv": [0.0, 1.0, 0.0, 1.0],
+  "pos": [[[0.94, 2.45, 9.72], [0.94, 2.15, 9.72], [-0.94, 2.15, 9.72], [-0.94, 2.45, 9.72]]],
+  "doAnimation": true
+ }
+],
+
+"soundScriptPath": "scripts/sound_Korail1088.js",
+"sound_Horn": "train.rtm_wh_00l",
+"sound_DoorOpen": "train.door",
+"sound_DoorClose": "sound_nankyu:train.rtm_Doorcls",
+
+"sound_Announcement": [["doorclswarn", "sound_nankyu:train.rtm_doorclswarn"], ["idsong", "sound_nankyu:train.rtm_idsong"], ["dep", "sound_nankyu:train.rtm_dep"], ["Eolssiguya", "sound_nankyu:train.rtm_Eolssiguya"] , ["laststn", "sound_nankyu:train.rtm_laststn"] ,["logosong", "sound_nankyu:train.rtm_logosong"]],
+
+"seatPos": [[12, 0, 130, 2], [12, 0, 110, 0], [12, 0, 90, 0], [12, 0, 70, 2], [12, 0, 50, 2], [12, 0, 30, 0], [12, 0, 20, 2], [12, 0, 10, 2], 
+			[12, 0, -130, 2], [12, 0, -110, 0], [12, 0, -90, 0],[12, 0, -70, 2], [12, 0, -50, 2], [12, 0, -30, 0], [12, 0, -20, 2], [12, 0, -10, 2],
+			[-12, 0, 130, 2], [-12, 0, 110, 0], [-12, 0, 90, 0], [-12, 0, 70, 2], [-12, 0, 50, 2], [-12, 0, 30, 0], [-12, 0, 20, 2], [-12, 0, 10, 2], 
+			[-12, 0, -130, 2], [-12, 0, -110, 0], [-12, 0, -90, 0],[-12, 0, -70, 2], [-12, 0, -50, 2], [-12, 0, -30, 0], [-12, 0, -20, 2], [-12, 0, -10, 2]],
+
+
+
+
+  "door_left": [
+       {
+           "objects": ["door_LF"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, 0.72]
+           ],
+           "childParts": []
+       },
+       {
+           "objects": ["door_LB"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, -0.72]
+           ],
+           "childParts": []
+       }
+   ],
+
+   "door_right": [
+       {
+           "objects": ["door_RF"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, 0.72]
+           ],
+           "childParts": []
+       },
+       {
+           "objects": ["door_RB"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, -0.72]
+           ],
+           "childParts": []
+       }
+   ], 
+ 
+ "interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+
+"renderLight": true,
+"playerPos": [[0.0, 0.21, 8.895], [-0.8, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.3], [0.0, 0.0, -7.3]],
+"smoothing": true
+}

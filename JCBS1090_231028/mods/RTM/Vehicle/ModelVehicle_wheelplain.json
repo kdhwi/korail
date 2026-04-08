@@ -1,0 +1,21 @@
+{
+  "name": "wheelplain",
+	"model": {
+      "modelFile": "wheelbug.mqo",
+      "textures": [["wheel", "textures/chongal/wheelcolor.png", ""]]
+  },
+	"buttonTexture": "textures/chongal/button_wheel.png",
+	"vehicleType": "Plane",
+	"size": [1.0, 1.0],
+	"playerPos": [[0.0, 0.6, 0.0]],
+	"scale": 1.0,
+	"friction": [0.9, 0.999],
+	"acceleration": [0.01, 0.05],
+	"maxSpeed": [1.0, 3.0],
+	"maxYaw": [15.0, 2.5],
+	"pitchCoefficient": [2.5, 2.5],
+	"yawCoefficient": [2.5, 2.5],
+	"rollCoefficient": [45.0, 45.0],
+	"changeYawOnStopping": true,
+  "tags": "wheelbug"
+}

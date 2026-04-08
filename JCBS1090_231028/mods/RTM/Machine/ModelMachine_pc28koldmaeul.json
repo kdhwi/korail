@@ -1,0 +1,15 @@
+{
+  "name": "pc28koldmaeul",
+  "model": {
+      "modelFile": "oldmaeul.mqo",
+ 		"textures": [
+		["mat1", "textures/pc28k/tex2.png"]]
+	},
+		
+  "buttonTexture": "textures/pc28k/button_busanstop28.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW",
+  "doCulling": true
+}

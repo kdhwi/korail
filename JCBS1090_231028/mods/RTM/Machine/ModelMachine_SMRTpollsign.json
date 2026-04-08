@@ -1,0 +1,16 @@
+{
+  "name": "SMRTpollsign",
+  "model": {
+      "modelFile": "SMRTpollsign.mqo",
+ 		"textures": [
+		["black_1", "textures/nsac/se_gray.png"],
+		["black_2", "textures/nsac/black.png"],
+        ["exit", "textures/nsac/ohmyexit.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_SMRTpollsign.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

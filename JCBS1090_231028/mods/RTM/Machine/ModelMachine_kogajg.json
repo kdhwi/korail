@@ -1,0 +1,16 @@
+{
+  "name": "kogajg",
+  "model": {
+      "modelFile": "koga.mqo",
+ 		"textures": [
+		["mat1", "textures/kosta/korailjg.png"],
+		["mat2", "textures/kosta/gyosta.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_korgani2.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "MovableBracket_jcbraket_3df51_75",
+  "model": {
+      "modelFile": "jcbraket_3df51_75.mqo",
+      "textures": [["mat1", "textures/jcbraket/jcbraket.png", ""]]
+  },
+  "buttonTexture": "textures/jcbraket/button_jcbraket_3df51.png",
+  "customIconTexture": "minecraft:textures/jcbraket/icon_jcbraket_3df51.png",
+  "connectorType":"Relay",
+  "wirePos":[-3.1858, -0.1455, 0.3375],
+  "smoothing": true,
+  "doCulling": true,
+  "accuracy": "LOW",
+  "tags": "jcbraket"
+}

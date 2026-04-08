@@ -1,0 +1,16 @@
+{
+  "name": "nsacw17",
+  "model": {
+      "modelFile": "nsacw17.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/nsacwatch17.png"],
+		["mat3", "textures/nsac/nsacwatch3.png"],
+		["mat4", "textures/nsac/nsacwatch4.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_nsacwatch.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

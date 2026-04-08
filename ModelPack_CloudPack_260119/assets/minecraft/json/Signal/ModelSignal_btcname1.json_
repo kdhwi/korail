@@ -1,0 +1,12 @@
+{
+   "signalName": "btcname1",
+   "signalModel": "signal/ModelSignal_btcname.mqo",
+   "signalTexture": "textures/signal/btcname1.png",
+   "buttonTexture": "textures/signal/button_btcname.png",
+  "modelPartsBody": {
+  	"objects": ["obj1", "in", "teduri"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+  "smoothing": true,
+  "rotateBody": true
+}

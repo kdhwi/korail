@@ -1,0 +1,18 @@
+{
+  "name": "busanexitim",
+  "model": {
+      "modelFile": "NEWbusanexit.mqo",
+ 		"textures": [
+		["black", "textures/nsac/black.png"],
+		["gray", "textures/nsac/bu_gray.png"],
+		["linecolor", "textures/nsac/1linebu.png"],
+		["side", "textures/nsac/bu_side.png"]]
+
+	},
+		
+  "buttonTexture": "textures/nsac/button_busanexitim.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

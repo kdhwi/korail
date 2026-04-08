@@ -1,0 +1,16 @@
+{
+  "name": "Cloud_PSDLCD_L9",
+  "model": {
+      "modelFile": "ModelMachine_9LCD_alp.mqo",
+      "textures": [["base", "textures/machine/LCD_line9.png", "Light"],["mat2", "textures/machine/batang.png", ""],["mat3", "textures/machine/9FC_a1.png", "Light"]],
+      "rendererPath": "scripts/RenderPSDLCD.js"
+  },
+  "buttonTexture": "textures/machine/button_PSDLCD.png",
+  "renderAABB": [-1.5, -2.0, -3.0, 3.0, 1.0, 3.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "useCustomColor": false,
+  "doCulling": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Cloud_PSDLED",
+  "model": {
+      "modelFile": "ModelMachine_PSD_LED.mqo",
+      "textures": [["base", "textures/machine/PSDLED.png", "Light"],["mat2", "textures/machine/batang.png", ""]],
+      "rendererPath": "scripts/RenderPSDLED.js"
+  },
+  "buttonTexture": "textures/machine/button_PSDLED.png",
+  "renderAABB": [-1.5, -2.0, -3.0, 3.0, 1.0, 3.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "useCustomColor": false,
+  "doCulling": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

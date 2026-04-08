@@ -1,0 +1,20 @@
+{
+  "name": "tanyak",
+  "model": {
+      "modelFile": "tanyak.mqo",
+ 		"textures": [
+		["mat2", "textures/chongal/tanpi.png"],
+		["mat3", "textures/chongal/tandu.png"]]
+		
+	},
+		
+  "bogieModel2": { "modelFile": "ModelBogie_DT21.mqo",
+                   "textures": [["default", "textures/train/invis.png"]]},
+  
+  "buttonTexture": "textures/chongal/button_mosintan.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "maxSpeed": [0.5, 1 , 1.5 , 2, 2.5],
+  "accuracy": "LOW"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "kogau",
+  "model": {
+      "modelFile": "kogau.mqo",
+ 		"textures": [
+		["mat1", "textures/kosta/korailgani.png"],
+		["mat2", "textures/kosta/gyosta.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_korgani.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

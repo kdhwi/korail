@@ -1,0 +1,15 @@
+{
+  "name": "busanmetsta3oldw",
+  "model": {
+      "modelFile": "busanyeok3oldw.mqo",
+ 		"textures": [
+		["mat1", "textures/busta/busanyeok3.png"],
+		["mat2", "textures/busta/oldbusan3.png"]]
+	},
+		
+  "buttonTexture": "textures/busta/button_bumet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

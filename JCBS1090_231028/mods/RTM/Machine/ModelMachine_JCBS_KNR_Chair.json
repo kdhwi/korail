@@ -1,0 +1,16 @@
+{
+  "name": "JCBS_KNR_Chair",
+  "model": {
+      "modelFile": "JCBS_KNR_Chair.mqo",
+ 		"textures": [
+		["sub", "textures/kosta/chair_sub.png"],
+		["chair", "textures/kosta/knr_chair.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_JCBS_KNR_Chair.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

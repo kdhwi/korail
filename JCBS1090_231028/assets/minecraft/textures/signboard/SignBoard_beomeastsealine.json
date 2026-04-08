@@ -1,0 +1,10 @@
+{
+  "texture": "beomeastsealine",
+  "height": 2,
+  "width": 5,
+  "depth": 0.2,
+  "frame": 1,
+  "animationCycle": 1,
+  "color" : 6118732,
+	"lightValue": 15
+}

@@ -1,0 +1,15 @@
+{
+  "name": "KORpsdtongja_hqgw_ER3_1__R",
+  "model": {
+      "modelFile": "Tongja/ModelMachine_korpsd-tongja_HQ_ER3_1.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3hq_gw.png", "Light"]
+	  ],
+      "rendererPath": "scripts/Cloud_RenderPSDN_color_legacy.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_hq.png",
+  "renderAABB":[-3.0, -1.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+ 
+  "doCulling": true
+}

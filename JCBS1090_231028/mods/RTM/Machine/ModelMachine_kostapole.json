@@ -1,0 +1,15 @@
+{
+  "name": "kostapole",
+  "model": {
+      "modelFile": "korailstapole.mqo",
+ 		"textures": [
+    	["mat2", "textures/nsac/nsacstop.png"]]
+	
+	},
+		
+  "buttonTexture": "textures/kosta/button_korstarp.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

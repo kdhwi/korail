@@ -1,0 +1,11 @@
+{
+  "name":"greenfencekr",
+  "model":{
+    "modelFile": "greenfence.mqo",
+    "textures": [["mat1", "textures/wire/greenfence.png", ""]]
+  },
+  "buttonTexture": "textures/wire/button_greenfence.png",
+  "sectionLength":1.80,
+  "doCulling": false,
+  "smoothing":true
+}

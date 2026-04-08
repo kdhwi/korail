@@ -1,0 +1,17 @@
+
+{
+  "railName": "1435mm_overpass_L_slab",
+  "model": {
+      "modelFile": "ModelRail_1435mm_overpassL_slab_.mqo",
+      "textures": [["mat1", "textures/rail/1435Rail.png", ""], ["gyogak", "textures/rail/Gyogak.png", ""]],
+      "rendererPath": "scripts/RenderRailCable.js"
+  },
+	"buttonTexture": "textures/rail/button_1435mm_overpass.png",
+	"defaultBallast": [{
+		"blockName": "air",
+		"blockMetadata": 0,
+		"height": 0.0625
+	}],
+  "accuracy": "LOW", "allowCrossing": true,
+  "tags": "1435"
+}

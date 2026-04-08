@@ -1,0 +1,14 @@
+{
+  "name": "KRPSD_gomu",
+  "model": {
+      "modelFile": "ModelMachine_KRgomu.mqo",
+      "textures": [["mat2", "textures/machine/arrowblack.png", ""]]
+  },
+  "buttonTexture": "textures/machine/button_fence.png",
+  "renderAABB":[-3.0, -1.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": true,
+  "accuracy": "LOW"
+}

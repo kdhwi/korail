@@ -1,0 +1,14 @@
+{
+  "name": "sp2smrtsigh",
+  "model": {
+      "modelFile": "smrtsign1block.mqo",
+ 		"textures": [
+		["sign", "textures/sosta/smrt6met.png"]]
+		},
+		
+  "buttonTexture": "textures/sosta/button_smrtmet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

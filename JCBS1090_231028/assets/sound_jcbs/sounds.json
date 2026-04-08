@@ -1,0 +1,32 @@
+{
+  "train.rtm_Korail1088_loop": {
+    "category": "neutral",
+    "sounds": [
+      "Korail1088/loop"
+    ]
+  },
+    "train.rtm_Korail1088_wing": {
+    "category": "neutral",
+    "sounds": [
+      "Korail1088/wing"
+    ]
+  },
+	"train.rtm_Korail1088_break": {
+    "category": "neutral",
+    "sounds": [
+      "Korail1088/break"
+    ]
+  },
+"train.rtm_tunnel": {
+    "category": "neutral",
+    "sounds": [
+      "Korail1088/tunnel"
+    ]
+  },
+"train.rtm_cyka": {
+    "category": "neutral",
+    "sounds": [
+      "Korail1088/cyka"
+    ]
+  }
+}

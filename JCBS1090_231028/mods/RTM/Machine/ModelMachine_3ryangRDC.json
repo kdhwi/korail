@@ -1,0 +1,15 @@
+{
+  "name": "3ryangRDC",
+  "model": {
+      "modelFile": "stopsign.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/3ryangRDC.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/nsac/button_stopsign.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

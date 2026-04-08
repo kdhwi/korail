@@ -1,0 +1,16 @@
+{
+"name": "daejeoncha",
+"model": {
+     "modelFile": "daejeoncha.mqo",
+		"textures": [
+		["mat1", "textures/nsac/daejeonchapo.png"],
+		["mat2", "textures/nsac/138liner.png"]]
+   },
+
+  "buttonTexture": "textures/nsac/button_daejeoncha.png",
+  "machineType": "Gate",
+  "sound_Running": "",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

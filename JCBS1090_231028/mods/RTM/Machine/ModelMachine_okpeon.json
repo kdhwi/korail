@@ -1,0 +1,15 @@
+{
+"name": "okpeon",
+"model": {
+     "modelFile": "okpeon.mqo",
+		"textures": [
+		["novel", "textures/chak/okpeon.png"]]
+   },
+
+  "buttonTexture": "textures/chak/button_okpeon.png",
+  "machineType": "Gate",
+  "sound_Running": "",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

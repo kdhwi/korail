@@ -1,0 +1,8 @@
+{
+   "signalName": "btcname2",
+   "signalModel": "signal/ModelSignal_btcname.mqo",
+   "signalTexture": "textures/signal/btcname2.png",
+   "buttonTexture": "textures/signal/button_btcname.png",
+  "smoothing": true,
+  "rotateBody": true
+}

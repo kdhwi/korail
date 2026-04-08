@@ -1,0 +1,23 @@
+{
+  "signalName": "route",
+  "signalModel": "ModelSignal_route.mqo",
+  "signalTexture": "textures/signal/colorSignal.png",
+	"lightTexture": "textures/signal/relaySignal.png",
+	"buttonTexture": "textures/signal/button_route.png",
+  "modelPartsFixture": {
+  	"objects": ["pole"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+  "modelPartsBody": {
+  	"objects": ["body", "up", "down", "center", "left","body2"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+	"lights": [
+		"S(1) I(0) P(center down left)",
+		"S(2) I(0) P(center down up)",
+		"S(3) I(0) P(center down right)"
+		],
+	"rotateBody": true,
+  "smoothing": true,
+  "doCulling": true
+}

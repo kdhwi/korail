@@ -1,0 +1,26 @@
+{
+"trainName": "tanyaktrain",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "tanyaktrain.mqo",
+      
+"textures": [
+          ["mat2", "textures/chongal/tanpi.png"],
+          ["mat3", "textures/chongal/tandu.png"]]
+		  },
+		  
+"bogieModel2": { "modelFile": "ModelBogie_DT21.mqo",
+   "textures": [["default", "textures/train/invis.png"]]},
+
+"buttonTexture": "textures/chongal/button_mosintan.png",
+
+"sound_Horn": "sound_jcbs:train.rtm_cyka",
+
+"renderLight": true,
+"playerPos": [[0.0, 2.01, 9.41], [-0.0, 3.38, -9.92]],
+"bogiePos": [[0.0, 0.0, 7.3], [0.0, 0.0, -7.3]],
+"maxSpeed": [0.8 , 1.6 , 2.4 , 3.2 , 4 ],
+"smoothing": true
+}

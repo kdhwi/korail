@@ -1,0 +1,241 @@
+{
+"train.rtm_Eolssiguya": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Eolssiguya"
+    ]
+  },
+"train.rtm_tony_watchyourstep": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_tony_watchyourstep"
+    ]
+  },
+"train.KR_horn": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_horn"
+    ]
+  },
+"train.KR_doorclswarn1": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_doorclswarn1"
+    ]
+  },
+"train.KR_doorclswarn2": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_doorclswarn2"
+    ]
+  },
+"train.KR_doorclswarn1_old": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_doorclswarn1_old"
+    ]
+  },
+"train.KR_traindepart_old": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_traindepart_old"
+    ]
+  },
+"train.KR_airdoorclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_airdoorclose"
+    ]
+  },
+"train.KR_airdooropen": {
+    "category": "neutral",
+    "sounds": [
+      "train/KR_airdooropen"
+    ]
+  },
+"train.airdoorcls": {
+    "category": "neutral",
+    "sounds": [
+      "train/airdoorcls"
+    ]
+  },
+"train.airdooropn": {
+    "category": "neutral",
+    "sounds": [
+      "train/airdooropn"
+    ]
+  },
+"train.elecdoorcls": {
+    "category": "neutral",
+    "sounds": [
+      "train/elecdoorcls"
+    ]
+  },
+"train.elecdooropn": {
+    "category": "neutral",
+    "sounds": [
+      "train/elecdooropn"
+    ]
+  },
+
+
+
+
+
+
+
+
+  "rotem_igbt.brake": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/brake",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.mo01_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/mo01_2",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.mo05": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/mo05",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_electric_s": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_electric_s",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_electric": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_electric",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_motor1_s": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_motor1_s",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_motor1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_motor1",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_motor3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_motor3",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_motor4": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_motor4",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rotem_igbt_motor5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rotem_igbt_motor5",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rtm_pck_toshiba_IGBT_loop": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rtm_pck_toshiba_IGBT_loop",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.Run40": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/Run40",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.Run60": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/Run60",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.RuninTunnel": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/RuninTunnel",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rtm_LRT_release0": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rtm_LRT_release0",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.rtm_LRT_release": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/rtm_LRT_release",
+        "stream": false
+      }
+    ]
+  },
+  "rotem_igbt.brake_ReleaseH": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "rotem_igbt/brake_ReleaseH",
+        "stream": false
+      }
+    ]
+  }
+}

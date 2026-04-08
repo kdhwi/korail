@@ -1,0 +1,17 @@
+{
+  "name": "kostar20_3L",
+  "model": {
+      "modelFile": "kostar20L.mqo",
+ 		"textures": [
+		["base", "textures/kosta/kostar20.png"],
+		["blue1", "textures/kosta/kostar20lr.png"],
+		["blue2", "textures/kosta/kostar20lr.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_kostar20.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

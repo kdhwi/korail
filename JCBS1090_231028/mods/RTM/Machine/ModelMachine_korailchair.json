@@ -1,0 +1,17 @@
+{
+  "name": "korailchair",
+  "model": {
+      "modelFile": "korailchair.mqo",
+ 		"textures": [
+		["pole1", "textures/kosta/kochair3.png"],
+		["pole2", "textures/kosta/kochair4.png"],
+		["base", "textures/kosta/kochair.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_korchair.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

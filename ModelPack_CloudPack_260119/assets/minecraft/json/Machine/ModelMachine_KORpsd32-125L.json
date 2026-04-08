@@ -1,0 +1,15 @@
+{
+  "name": "KORpsd32-125__L",
+  "model": {
+      "modelFile": "ModelMachine_korpsd-125.mqo",
+      "textures": [["default", "textures/machine/korpsd3_2.png", "Light"]],
+      "rendererPath": "scripts/Cloud_RenderPSDN.js"
+  },
+  "buttonTexture": "textures/machine/button_psd.png",
+  "renderAABB":[-3.0, -1.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "KORpsd_ModelMachine_KRPSD_driverj_Center3",
+  "model": {
+      "modelFile": "ModelMachine_KRPSD_driverj_Center3.mqo",
+      "textures": [["default", "textures/machine/PSD/driverjojak_3.png", "Light"]],
+      "rendererPath": "scripts/Cloud_Renderdriverjojak.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_driverjojak_B.png",
+  "renderAABB":[-3.0, -5.0, -2.0, 3.0, 1.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false,
+    "smoothing": true,
+  "accuracy": "LOW"
+}

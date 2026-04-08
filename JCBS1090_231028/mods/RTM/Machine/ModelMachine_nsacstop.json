@@ -1,0 +1,16 @@
+{
+  "name": "nsacstop",
+  "model": {
+      "modelFile": "nsacstop18.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/redstop.png"],
+		["mat2", "textures/nsac/nsacstop.png"],
+		["mat3", "textures/nsac/nsacwatch4.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_nsacstop.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

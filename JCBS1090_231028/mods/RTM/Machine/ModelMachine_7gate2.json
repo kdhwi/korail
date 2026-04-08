@@ -1,0 +1,16 @@
+{
+  "name": "smrt2gate7",
+  "model": {
+      "modelFile": "ModelMachine_SMRT2T.mqo",
+ 		"textures": [
+		["base", "textures/gate/gatebase.png"],
+		["bluebase", "textures/gate/7base.png"],
+		["card", "textures/gate/Tcard.png"],
+        ["LED", "textures/gate/SMRT2TLED.png"]]
+  },
+  "buttonTexture": "textures/gate/button_7gate.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,11 @@
+{
+  "texture": "cccp1955sin",
+	"backTexture": 1,
+  "height": 3,
+  "width": 6,
+  "depth": 0.05,
+  "frame": 1,
+  "animationCycle": 1,
+  "color" : 0,
+	"lightValue": 0
+}

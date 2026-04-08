@@ -1,0 +1,13 @@
+{
+  "name": "kopole",
+  "model": {
+      "modelFile": "korailpole.mqo",
+      "textures": [["mat1", "textures/kosta/korailpole.png"],
+	              ["mat2", "textures/nsac/nsacstop.png"]]
+  },
+  "buttonTexture": "textures/kosta/button_kopole.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

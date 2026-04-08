@@ -1,0 +1,16 @@
+{
+  "name": "Linecirclegray__R",
+  "model": {
+      "modelFile": "ModelMachine_PSD_circle.mqo",
+      "textures": [["base", "textures/machine/batang.png", "AlphaBlend"],["arrow", "textures/machine/arrowgray.png", ""]],
+      "rendererPath": "scripts/RenderNameCircle.js"
+  },
+  "buttonTexture": "textures/machine/button_linecircle_gray.png",
+  "renderAABB": [-3.0, -2.0, -3.0, 3.0, 1.0, 3.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "useCustomColor": false,
+  "doCulling": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

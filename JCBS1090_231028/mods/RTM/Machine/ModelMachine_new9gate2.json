@@ -1,0 +1,15 @@
+{
+  "name": "new9gater",
+  "model": {
+      "modelFile": "ModelMachine_M9T2.mqo",
+ 		"textures": [
+		["base", "textures/gate/gatebase.png"],
+		["led", "textures/gate/new9ap.png"],	
+		["card", "textures/gate/card9.png"]]
+  },
+  "buttonTexture": "textures/gate/button_9gate.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "wanhang",
+  "model": {
+      "modelFile": "jikhang.mqo",
+ 		"textures": [
+		["sta", "textures/pc28k/wan.png"]]
+	},
+		
+  "buttonTexture": "textures/pc28k/button_wanhang.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW",
+  "doCulling": true
+}

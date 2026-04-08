@@ -1,0 +1,14 @@
+{
+  "name": "KORpsdtongja_air_TC1L",
+  "model": {
+      "modelFile": "Tongja/ModelMachine_korpsd-tongja_TC1_noled.mqo",
+      "textures": [["mat2", "textures/machine/korpsd3_air.png", "Light"],["arrow", "textures/machine/arrowgray.png", ""], ["arrowR", "textures/machine/empty.png", ""], ["stopline", "textures/machine/PSD/stoplinearrow1.png", ""], ["grey1", "textures/machine/grey.png", ""], ["grey2", "textures/machine/empty.png", ""]],
+      "rendererPath": "scripts/Cloud_RenderPSDN_tongja.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_psd_tongja_TC1.png",
+  "renderAABB":[-14.0, -1.0, -14.0, 14.0, 9.0, 14.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false
+}

@@ -1,0 +1,15 @@
+{
+  "name": "kopledn1",
+  "model": {
+      "modelFile": "kopled2.mqo",
+ 		"textures": [
+		["mat1", "textures/kosta/sovkaya.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/kosta/button_sovkaya2.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

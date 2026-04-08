@@ -1,0 +1,14 @@
+{
+  "name": "seoulmetsta1",
+  "model": {
+      "modelFile": "seoyeok.mqo",
+ 		"textures": [
+		["mat1", "textures/sosta/seoulmet.png"]]
+	},
+		
+  "buttonTexture": "textures/sosta/button_seomet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,21 @@
+
+{
+  "railName": "1435mm_PC28K_",
+  "model": {
+      "modelFile": "ModelRail_1435mm_PC28K.mqo",
+		"textures": [["mat1", "textures/rail/1435Rail.png","AlphaBlend"],
+		["gyogak", "textures/rail/Gyogak.png","AlphaBlend"]],
+	  
+	  
+	  
+      "rendererPath": "scripts/RenderRailStandard.js"
+  },
+	"buttonTexture": "textures/rail/button_1435mm_overpass.png",
+	"defaultBallast": [{
+		"blockName": "air",
+		"blockMetadata": 0,
+		"height": 0.0625
+	}],
+  "accuracy": "LOW", "allowCrossing": true,
+  "tags": "1435"
+}

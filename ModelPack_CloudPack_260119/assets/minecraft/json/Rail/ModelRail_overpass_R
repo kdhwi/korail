@@ -1,0 +1,18 @@
+
+{
+  "railName": "overpasswall_R",
+  "model": {
+      "modelFile": "ModelRail_overpassR.mqo",
+      "textures": [["mat1", "textures/rail/1435Rail.png", ""], ["gyogak", "textures/rail/Gyogak.png", ""]],
+      "rendererPath": "scripts/RenderRailCable.js"
+  },
+	"buttonTexture": "textures/rail/button_railwall.png",
+	"defaultBallast": [{
+		"blockName": "air",
+		"blockMetadata": 0,
+		"height": 0.0625
+	}],
+  "accuracy": "LOW",
+  "ballastWidth": 1,
+  "tags": "wall"
+}

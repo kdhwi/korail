@@ -1,0 +1,13 @@
+{
+  "name": "H_Signboard_KORAIL_Cn2",
+  "model": {
+      "modelFile": "ModelSignboard_KNR_Cn2.mqo",
+      "textures": [["mat1", "textures/H_kosta/ModelSignboard_KORAIL_C.png"]]
+  },
+  "buttonTexture": "textures/H_kosta/Button_H_Signboard_KORAIL_C.png",
+  "machineType": "Light",
+  "smoothing": true,
+  "accuracy": "LOW",
+  "rotateByMetadata": true,
+  "tags": "holic Signboard"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "oldtracksany",
+  "model": {
+      "modelFile": "oldtracks.mqo",
+      "textures": [["mat1", "textures/nsac/oldtracksany.png"],
+	              ["mat2", "textures/nsac/nsacstop.png"]]
+  },
+  "buttonTexture": "textures/nsac/button_oldtracks.png",
+"buttonTexture": "textures/nsac/button_oldtracks.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

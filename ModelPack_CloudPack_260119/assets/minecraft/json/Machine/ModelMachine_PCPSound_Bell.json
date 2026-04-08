@@ -1,0 +1,13 @@
+{
+  "name": "PCPSound_Bell",
+  "model": {
+      "modelFile": "signal/ModelSignal_carlimit.mqo",
+      "textures": [["default", "textures/signal/carlimit.png", ""]]
+  },
+  "buttonTexture": "textures/machine/button_sound.png",
+  "machineType": "Gate",
+  "sound_Running": "sound_cloud2:machine.rtm_PCPBell",
+  "smoothing": false,
+  "doCulling": true,
+  "accuracy": "LOW"
+}

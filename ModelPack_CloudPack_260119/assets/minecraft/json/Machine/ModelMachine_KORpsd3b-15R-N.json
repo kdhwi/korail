@@ -1,0 +1,15 @@
+{
+  "name": "KORpsd3b-150r-N",
+  "model": {
+      "modelFile": "ModelMachine_korpsd150R-NN.mqo",
+      "textures": [["default", "textures/machine/korpsd3_b.png", "Light"]],
+      "rendererPath": "scripts/Cloud_RenderPSDN_color.js"
+  },
+  "buttonTexture": "textures/machine/button_psd_color.png",
+  "renderAABB":[-3.0, -1.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false,
+  "accuracy": "LOW"
+}

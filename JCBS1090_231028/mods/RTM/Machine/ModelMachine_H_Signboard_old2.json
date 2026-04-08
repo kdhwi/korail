@@ -1,0 +1,13 @@
+{
+  "name": "H_Signboard_old2",
+  "model": {
+      "modelFile": "ModelSignboard_old2.mqo",
+      "textures": [["mat1", "textures/H_kosta/H_common1.png"]]
+  },
+  "buttonTexture": "textures/H_kosta/Button_H_Signboard_old2n.png",
+  "machineType": "Gate",
+  "renderAABB": [-3.0, 0.0, -3.0, 3.0, 4.0, 3.0],
+  "smoothing": true,
+  "accuracy": "LOW",
+  "tags": "holic Signboard"
+}

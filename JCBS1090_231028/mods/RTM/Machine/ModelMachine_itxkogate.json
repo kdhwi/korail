@@ -1,0 +1,17 @@
+{
+  "name": "itxkogate",
+  "model": {
+      "modelFile": "itxgate.mqo",
+ 		"textures": [
+		["side1", "textures/gate/itxside1.png"],
+		["side2", "textures/gate/itxside2.png"],	
+		["card", "textures/gate/itxcard.png"],
+        ["down1", "textures/gate/itxdown1.png"],
+		["down2", "textures/gate/itxdown2.png"]]
+  },
+  "buttonTexture": "textures/gate/button_itxgate.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "62liner",
+  "model": {
+      "modelFile": "138line.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/62line.png"],
+		["mat2", "textures/nsac/138liner.png"],
+		["mat3", "textures/nsac/138back.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/nsac/button_geonumber.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

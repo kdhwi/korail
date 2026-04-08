@@ -1,0 +1,16 @@
+{
+  "name": "KORfence-R",
+  "model": {
+      "modelFile": "ModelMachine_fence_R.mqo",
+ 		"textures": [
+		["mat1", "textures/machine/fence.png"],
+        ["mat2", "textures/machine/fence2.png"]]
+  },
+  "buttonTexture": "textures/machine/button_fence.png",
+  "renderAABB":[-3.0, 0.0, -2.0, 3.0, 5.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

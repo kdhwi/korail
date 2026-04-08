@@ -1,0 +1,15 @@
+{
+  "railName": "Formpcp6",
+  "railModel": "ModelRail_Form.mqo",
+  "railTexture": "textures/rail/Form6.png",
+	"buttonTexture": "textures/rail/button_Form_yellow.png",
+	"polygonType": 4,
+	"ballastWidth": 1,
+	"defaultBallast": [{
+		"blockName": "air",
+		"blockMetadata": 0,
+		"height": 0.0625
+	}],
+	"allowCrossing": true,
+	  "tags": "form"
+}

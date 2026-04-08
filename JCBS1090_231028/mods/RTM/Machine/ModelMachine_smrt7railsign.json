@@ -1,0 +1,14 @@
+{
+  "name": "srail7smrtsigh",
+  "model": {
+      "modelFile": "smrtrailst.mqo",
+ 		"textures": [
+		["sign", "textures/sosta/smrtrailst7.png"]]
+		},
+		
+  "buttonTexture": "textures/sosta/button_smrtrailmet.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

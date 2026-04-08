@@ -1,0 +1,96 @@
+{
+"trainName": "CloudPack_KRV200x_Pan",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_KRV200x_Pan.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/KRV1998/sidetex1.png"],
+["sidetex2", "textures/train/KRV1998/311/sidetex2.png"],
+["window1", "textures/train/KRV1998/window1.png"],
+["window2", "textures/train/KRV1998/window2.png"],
+["doorside", "textures/train/KRV1998/311/doorside.png"],
+["steel", "textures/train/KRV1998/steel1.png"],
+["jibung", "textures/train/KRV1998/jibung.png"],
+["cheonjang", "textures/train/KRV1998/cheonjang.png"],
+["badak", "textures/train/KRV1998/311/badak.png"],
+["back", "textures/train/KRV1998/back.png", "AlphaBlend"],
+["backin", "textures/train/KRV1998/100_back.png"],
+["aircon", "textures/train/KRV1998/aircon.png"],
+["sub", "textures/train/KRV1998/311/sub.png"],
+["door", "textures/train/KRV1998/311/door.png"],
+["door_in", "textures/train/KRV1998/311/door_in.png"],
+["habu", "textures/train/KRV1998/munder.png"],
+["black", "textures/train/KRV1998/black.png"],
+["mat2", "textures/train/C_KRV1998/baemjak.png"],
+["white", "textures/train/KRV1998/white.png"]]
+   },
+
+
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"bogieModel2": { "modelFile": "KRVDT50_98.mqo",
+                   "textures": [["default", "textures/train/KRV1998/DT138.png"]]},
+
+"buttonTexture": "textures/train/C_KRV1998/311/button319.png",
+
+"soundScriptPath": "scripts/cloudpack_toshibaGTO.js",
+"sound_Horn": "sound_cloud2:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_cloud2:train.rtm_k1998open",
+"sound_DoorClose": "sound_cloud2:train.rtm_k1998close",
+"sound_Announcement": [["START SOON", "sound_cloud2:train.rtm_startsoon"], ["DOOR CLOSE", "sound_cloud2:train.rtm_doorclosebroadcast"], ["TRANSFERS", "sound_cloud2:train.rtm_Eolssiguya"], ["IDSONG", "sound_cloud2:train.rtm_idsong"], ["LOGOSONG", "sound_cloud2:train.rtm_logosong"]],
+ 
+ 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+"slotPos": [
+[1.23, 0, 0, 2], [1.23, 0, 0.45, 2], [1.23, 0, 0.90, 2], [1.23, 0, 1.35, 2], [1.23, 0, 3.52, 2], [1.23, 0, 3.97, 2], [1.23, 0, 4.42, 2], [1.23, 0, 4.87, 2], [1.23, 0, 5.32, 2], [1.23, 0, 5.77, 2], [1.23, 0, 6.22, 2], [1.23, 0, 8.39, 2], [1.23, 0, 8.87, 2],  [1.23, 0, 9.36, 2],
+[1.23, 0, -0.45, 2], [1.23, 0, -0.90, 2], [1.23, 0, -1.35, 2], [1.23, 0, -3.52, 2], [1.23, 0, -3.97, 2], [1.23, 0, -4.42, 2], [1.23, 0, -4.87, 2], [1.23, 0, -5.32, 2], [1.23, 0, -5.77, 2], [1.23, 0, -6.22, 2], [1.23, 0, -8.39, 2], [1.23, 0, -8.87, 2],  [1.23, 0, -9.36, 2],
+[-1.23, 0, 0, 2], [-1.23, 0, 0.45, 2], [-1.23, 0, 0.90, 2], [-1.23, 0, 1.35, 2], [-1.23, 0, 3.52, 2], [-1.23, 0, 3.97, 2], [-1.23, 0, 4.42, 2], [-1.23, 0, 4.87, 2], [-1.23, 0, 5.32, 2], [-1.23, 0, 5.77, 2], [-1.23, 0, 6.22, 2], [-1.23, 0, 8.39, 2], [-1.23, 0, 8.87, 2],  [-1.23, 0, 9.36, 2],
+[-1.23, 0, -0.45, 2], [-1.23, 0, -0.90, 2], [-1.23, 0, -1.35, 2], [-1.23, 0, -3.52, 2], [-1.23, 0, -3.97, 2], [-1.23, 0, -4.42, 2], [-1.23, 0, -4.87, 2], [-1.23, 0, -5.32, 2], [-1.23, 0, -5.77, 2], [-1.23, 0, -6.22, 2], [-1.23, 0, -8.39, 2], [-1.23, 0, -8.87, 2],  [-1.23, 0, -9.36, 2]
+],
+
+"customIconTexture": "minecraft:textures/train/GEC/icon_baemjak.png",
+
+"renderLight": true,
+"playerPos": [[0.0, 0.2, 9.2], [0.0, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+"smoothing": true,
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
+"accelerateion": 0.0020832
+}

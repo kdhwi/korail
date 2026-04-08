@@ -1,0 +1,15 @@
+{
+  "name": "rsfsrgukjang2",
+  "model": {
+      "modelFile": "soyuz2.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/rsfsrgukjang.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/nsac/button_rsfsrgukjang.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

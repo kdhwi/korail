@@ -1,0 +1,107 @@
+{
+"trainName": "Tokyu_SMV2005_2000_F",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_SMV1993_Front.mqo",
+      
+"textures": [
+["sidetex1", "textures/train/SMV1993/sidetex1.png"],
+["sidetex2", "textures/train/KRV1998/2005/sidetex2.png"],
+["window1", "textures/train/SMV1993/window1.png"],
+["window2", "textures/train/SMV1993/window2.png"],
+["doorside", "textures/train/SMV1993/sidetex1.png"],
+["steel", "textures/train/SMV1993/steel1.png"],
+["jibung", "textures/train/SMV1993/jibung.png"],
+["cheonjang", "textures/train/SMV1993/cheonjang.png"],
+["badak", "textures/train/SMV1993/2005/badak.png"],
+["back", "textures/train/SMV1993/back.png", "AlphaBlend"],
+["backin", "textures/train/SMV1993/100_back.png"],
+["driverdoor", "textures/train/SMV1993/driverdoor.png"],
+["front", "textures/train/SMV1993/2005/front.png"],
+["front_in", "textures/train/SMV1993/front_in.png"],
+["sk", "textures/train/SMV1993/sk.png"],
+["aircon", "textures/train/KRVRDC/sub.png"],
+["drivergreen", "textures/train/SMV1993/drivergreen.png"],
+["driverwall_in", "textures/train/SMV1993/driverwall_in.png"],
+["driverwall_out", "textures/train/SMV1993/driverwall_out.png"],
+["black", "textures/train/SMV1993/black.png"],
+["sub", "textures/train/SMV1993/2005/sub.png"],
+["door", "textures/train/SMV1993/2005/door.png"],
+["door_in", "textures/train/SMV1993/2005/door_in.png"],
+["habu", "textures/train/SMV1993/tcunder.png"],
+["dummy", "textures/train/SMV1993/black.png"],
+["light", "textures/train/SMV1993/light.png", "Light"], 
+["mat1", "textures/train/SMV1998/4000/front/4000TC.png"],	
+["led", "textures/train/SMV1993/led.png"],
+["novel", "textures/novel/novelsize_sao1.png"],
+["white", "textures/train/SMV1993/white.png"]]
+   },
+
+"door_left": [
+    {
+        "objects": ["door_LF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_LB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"door_right": [
+    {
+        "objects": ["door_RF"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, 0.64]],
+           "childParts": []
+    },
+    {
+        "objects": ["door_RB"],
+        "pos": [0.0, 0.0, 0.0],
+        "transform": [[0.0, 0.0, -0.64]],
+        "childParts": []
+    }
+],
+
+"bogieModel2": { "modelFile": "ModelBogie_KRVRDC1.mqo",
+                   "textures": [["default", "textures/train/KRVRDC/bogie.png"]]},
+				   
+
+  
+"buttonTexture": "textures/train/SMV1993/2005/button.png",
+
+  "soundScriptPath": "scripts/sound_o220.js",
+
+"sound_Horn": "sound_cloud2:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_cloud2:train.rtm_k1998open",
+"sound_DoorClose": "sound_cloud2:train.rtm_k1998close",
+"sound_Announcement": [ ["DOOR CLOSE", "sound_cloud2:train.rtm_doorclosebroadcast"], ["TRANSFERS", "sound_cloud2:train.rtm_Eolssiguya"], ["LOGOSONG", "sound_cloud2:train.rtm_seoulmetrols"]],
+ 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+
+"slotPos": [
+[1.23, 0, 0, 2], [1.23, 0, 0.45, 2], [1.23, 0, 0.90, 2], [1.23, 0, 1.35, 2], [1.23, 0, 3.52, 2], [1.23, 0, 3.97, 2], [1.23, 0, 4.42, 2], [1.23, 0, 4.87, 2], [1.23, 0, 5.32, 2], [1.23, 0, 5.77, 2], [1.23, 0, 6.22, 2], [1.23, 0, 8.39, 0],
+[1.23, 0, -0.45, 2], [1.23, 0, -0.90, 2], [1.23, 0, -1.35, 2], [1.23, 0, -3.52, 2], [1.23, 0, -3.97, 2], [1.23, 0, -4.42, 2], [1.23, 0, -4.87, 2], [1.23, 0, -5.32, 2], [1.23, 0, -5.77, 2], [1.23, 0, -6.22, 2], [1.23, 0, -8.39, 0],
+[-1.23, 0, 0, 2], [-1.23, 0, 0.45, 2], [-1.23, 0, 0.90, 2], [-1.23, 0, 1.35, 2], [-1.23, 0, 3.52, 2], [-1.23, 0, 3.97, 2], [-1.23, 0, 4.42, 2], [-1.23, 0, 4.87, 2], [-1.23, 0, 5.32, 2], [-1.23, 0, 5.77, 2], [-1.23, 0, 6.22, 2], [-1.23, 0, 8.39, 0],
+[-1.23, 0, -0.45, 2], [-1.23, 0, -0.90, 2], [-1.23, 0, -1.35, 2], [-1.23, 0, -3.52, 2], [-1.23, 0, -3.97, 2], [-1.23, 0, -4.42, 2], [-1.23, 0, -4.87, 2], [-1.23, 0, -5.32, 2], [-1.23, 0, -5.77, 2], [-1.23, 0, -6.22, 2], [-1.23, 0, -8.39, 0]
+],
+
+"customIconTexture": "minecraft:textures/train/GEC/icon_chopper2.png",
+"renderLight": true,
+"playerPos": [[0.3, 0.2, 8.8], [0.0, 0.0, 8.8]],
+"bogiePos": [[0.0, 0.0, 7.0], [0.0, 0.0, -7.0]],
+"rolling": 0.0,
+"trainDistance": 10,
+"smoothing": true,
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56],
+"accelerateion": 0.0020832
+}

@@ -1,0 +1,18 @@
+{
+  "name": "seoulexitko",
+  "model": {
+      "modelFile": "beoexitko.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/exitko.png"],
+		["mat2", "textures/nsac/thisiswithe.png"],
+        ["mat3", "textures/nsac/ohmyexit.png"],		
+		["mat4", "textures/nsac/exitko2.png"],
+		["mat5", "textures/nsac/nsacstop.png"]]
+	},
+		
+  "buttonTexture": "textures/nsac/button_korailexit.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

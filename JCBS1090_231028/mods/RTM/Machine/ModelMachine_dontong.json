@@ -1,0 +1,15 @@
+{
+"name": "dontong",
+"model": {
+     "modelFile": "dontong.mqo",
+		"textures": [
+		["mat1", "textures/chak/dontong.png"]]
+   },
+
+  "buttonTexture": "textures/chak/button_dontong.png",
+  "machineType": "Gate",
+  "sound_Running": "",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

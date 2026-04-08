@@ -1,0 +1,14 @@
+
+{
+"name": "ERST_PlatformfenceB",
+"model": {
+     "modelFile": "erst_platform_fenceb.mqo",
+		"textures": [
+		["mat1", "textures/ERST/ERSTmetalsts.png"]]
+},
+
+  "buttonTexture": "textures/ERST/button_ERSTfen.png",
+  "machineType": "Light",
+  "accuracy": "LOW",
+  "smoothing":"true" 
+}

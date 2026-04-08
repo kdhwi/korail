@@ -1,0 +1,16 @@
+{
+  "name": "KORpsd_air_CR",
+  "model": {
+      "modelFile": "ModelMachine_KRPSD_air_CR.mqo",
+      "textures": [["default", "textures/machine/PSD/driverjojak_B.png", "Light"]],
+      "rendererPath": "scripts/Cloud_Renderdriverjojak.js"
+  },
+  "buttonTexture": "textures/machine/PSD/button_driverjojak_B.png",
+  "renderAABB":[-5.0, -5.0, -2.0, 5.0, 1.0, 2.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+
+  "doCulling": false,
+    "smoothing": true,
+  "accuracy": "LOW"
+}

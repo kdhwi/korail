@@ -1,0 +1,16 @@
+{
+  "name": "Cloud_PSDLCD",
+  "model": {
+      "modelFile": "ModelMachine_grayLCD.mqo",
+      "textures": [["base", "textures/machine/LCD_gray.png", "Light"],["mat2", "textures/machine/batang.png", ""]],
+      "rendererPath": "scripts/RenderPSDLCD.js"
+  },
+  "buttonTexture": "textures/machine/button_PSDLCD.png",
+  "renderAABB": [-1.5, -2.0, -3.0, 3.0, 1.0, 3.0],
+  "machineType": "Gate",
+  "sound_Running": "",
+  "useCustomColor": false,
+  "doCulling": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}

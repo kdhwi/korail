@@ -1,0 +1,16 @@
+{
+  "name": "dongkogatem",
+  "model": {
+      "modelFile": "ModelMachine_NKT.mqo",
+ 		"textures": [
+		["base", "textures/gate/gatebase.png"],
+		["led", "textures/gate/dongkogate.png"],	
+		["card", "textures/gate/newcard.png"],
+        ["qr", "textures/gate/base.png"]]
+  },
+  "buttonTexture": "textures/gate/button_korailgate2.png",
+  "machineType": "Turnstile",
+  "smoothing": true,
+  "doCulling": false,
+  "accuracy": "LOW"
+}

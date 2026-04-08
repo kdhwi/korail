@@ -1,0 +1,19 @@
+{
+  "signalName": "ebstop",
+  "signalModel": "ModelSignal_ebstop.mqo",
+  "signalTexture": "textures/signal/ebstop.png",
+	"lightTexture": "textures/signal/ebstop2.png",
+	"buttonTexture": "textures/signal/button_ebstop.png",
+  "modelPartsFixture": {
+  	"objects": ["obj1"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+  "modelPartsBody": {
+  	"objects": ["body", "light"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+	"lights": [
+		"S(1) I(0) P(light)"
+		],
+	"rotateBody": true
+}

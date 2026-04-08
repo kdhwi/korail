@@ -1,0 +1,15 @@
+{
+  "name": "seoulji",
+  "model": {
+      "modelFile": "seoulstop.mqo",
+ 		"textures": [
+		["sta", "textures/pc28k/seostop.png"]]
+	},
+		
+  "buttonTexture": "textures/pc28k/button_seoulstop28.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW",
+  "doCulling": true
+}

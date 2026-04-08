@@ -1,0 +1,108 @@
+{
+"trainName": "CloudPack_GEC_2_Tc",
+
+"trainType": "EC",
+
+"trainModel2": {
+      "modelFile": "ModelTrain_GEC_Tc.mqo",
+      
+"textures": [
+	["side", "textures/train/GEC/side_2.png"],
+	["side_high", "textures/train/GEC/side_high_2.png"],
+	["black", "textures/train/GEC/black.png"],
+	["white", "textures/train/GEC/gecwhite.png"],
+	["steel1", "textures/train/GEC/steel1.png"],
+	["steel2", "textures/train/GEC/steel2.png"],
+	["linemap", "textures/train/GEC/linemap_2.png"],
+	["front", "textures/train/GEC/front_2.png"],
+    ["inmid", "textures/train/GEC/inmid.png"],
+    ["infront", "textures/train/GEC/infront.png"],
+    ["mat1", "textures/train/GEC/4000TC.png"],
+    ["ad", "textures/train/GEC/ad.png"],
+    ["wj", "textures/train/GEC/wj.png"],
+    ["red", "textures/train/GEC/red.png"],
+    ["green", "textures/train/GEC/green.png"],
+    ["driver", "textures/train/GEC/black_driver.png"],
+    ["gray", "textures/train/GEC/gray.png"]]
+   },
+
+
+
+"bogieModel2": { "modelFile": "KRVDT50.mqo",
+                   "textures": [["default", "textures/train/DT138.png"]]},
+
+"buttonTexture": "textures/train/GEC/buttonGEC2.png",
+
+"rollsignTexture": "textures/train/GEC/gecpaper2.png",
+"rollsignNames": ["None",  "Seongsu", "Dangsan", "Euljiro", "Seoul Univ", "SNUE", "Hongik Univ", "Sindorim", "Sports Complex", "Samseong", "Trial Run", "Circle Line", "Forwarding", "Trap", "None", "None", "Outer Circle Line", "Inner Circle Line", "None", "None", "Gumun", "Texture" ],
+"rollsigns": [
+ {
+  "uv": [0.0, 0.93, 0.0, 1.0],
+  "pos": [[[0.34, 2.3835, 9.7], [0.34, 2.0835, 9.7], [-0.34, 2.0835, 9.7], [-0.34, 2.3835, 9.7]]],
+  "doAnimation": true,
+  "disableLighting": true
+ }
+ ],
+
+  "door_left": [
+       {
+           "objects": ["door_LF"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, 0.65]
+           ],
+           "childParts": []
+       },
+       {
+           "objects": ["door_LB"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, -0.65]
+           ],
+           "childParts": []
+       }
+   ],
+
+   "door_right": [
+       {
+           "objects": ["door_RF"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, 0.65]
+           ],
+           "childParts": []
+       },
+       {
+           "objects": ["door_RB"],
+           "pos": [0.0, 0.0, 0.0],
+           "transform": [
+               [0.0, 0.0, -0.65]
+           ],
+           "childParts": []
+       }
+   ], 
+"interiorLights": [
+	{"pos": [0.0, 2.4, 4.0]},
+	{"pos": [0.0, 2.4, -4.0]}],
+
+ "soundScriptPath": "scripts/sound_o220.js",
+
+"sound_Horn": "sound_cloud2:train.rtm_klaxon0",
+"sound_DoorOpen": "sound_cloud2:train.rtm_k1998open",
+"sound_DoorClose": "sound_cloud2:train.rtm_k1998close",
+"sound_Announcement": [ ["DOOR CLOSE", "sound_cloud2:train.rtm_doorclosebroadcast"], ["TRANSFERS", "sound_cloud2:train.rtm_Eolssiguya"], ["LOGOSONG", "sound_cloud2:train.rtm_seoulmetrols"]],
+
+"customIconTexture": "minecraft:textures/train/GEC/icon_gec2.png",
+
+"slotPos": [
+[1.23, 0, 0, 2], [1.23, 0, 0.45, 2], [1.23, 0, 0.90, 2], [1.23, 0, 1.35, 2], [1.23, 0, 3.52, 2], [1.23, 0, 3.97, 2], [1.23, 0, 4.42, 2], [1.23, 0, 4.87, 2], [1.23, 0, 5.32, 2], [1.23, 0, 5.77, 2], [1.23, 0, 6.22, 2], [1.23, 0, 8.39, 2], [1.23, 0, 8.87, 2],  [1.23, 0, 9.36, 2],
+[1.23, 0, -0.45, 2], [1.23, 0, -0.90, 2], [1.23, 0, -1.35, 2], [1.23, 0, -3.52, 2], [1.23, 0, -3.97, 2], [1.23, 0, -4.42, 2], [1.23, 0, -4.87, 2], [1.23, 0, -5.32, 2], [1.23, 0, -5.77, 2], [1.23, 0, -6.22, 2], [1.23, 0, -8.39, 2], [1.23, 0, -8.87, 2],  [1.23, 0, -9.36, 2],
+[-1.23, 0, 0, 2], [-1.23, 0, 0.45, 2], [-1.23, 0, 0.90, 2], [-1.23, 0, 1.35, 2], [-1.23, 0, 3.52, 2], [-1.23, 0, 3.97, 2], [-1.23, 0, 4.42, 2], [-1.23, 0, 4.87, 2], [-1.23, 0, 5.32, 2], [-1.23, 0, 5.77, 2], [-1.23, 0, 6.22, 2], [-1.23, 0, 8.39, 2], [-1.23, 0, 8.87, 2],  [-1.23, 0, 9.36, 2],
+[-1.23, 0, -0.45, 2], [-1.23, 0, -0.90, 2], [-1.23, 0, -1.35, 2], [-1.23, 0, -3.52, 2], [-1.23, 0, -3.97, 2], [-1.23, 0, -4.42, 2], [-1.23, 0, -4.87, 2], [-1.23, 0, -5.32, 2], [-1.23, 0, -5.77, 2], [-1.23, 0, -6.22, 2], [-1.23, 0, -8.39, 2], [-1.23, 0, -8.87, 2],  [-1.23, 0, -9.36, 2]
+],
+
+"playerPos": [[-1.03, 0.1, 8.8], [-1.03, 0.1, 8.8]],
+"bogiePos": [[0.0, 0.0, 6.97], [0.0, 0.0, -7.3]],
+
+"maxSpeed": [0.36, 0.63, 1.05, 1.56, 1.56], "smoothing": true
+}

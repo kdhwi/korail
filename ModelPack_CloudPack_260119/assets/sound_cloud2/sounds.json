@@ -1,0 +1,464 @@
+{
+  "train.rtm_klaxon0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_klaxon0"
+    ]
+  },
+  "train.rtm_5000_a0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_5000_a0"
+    ]
+  },
+  "train.rtm_5000_a1": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_5000_a1"
+    ]
+  },
+  "train.rtm_5000_a2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_5000_a2"
+    ]
+  },
+  "train.rtm_5000_s0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_5000_s0"
+    ]
+  },
+  "train.rtm_Eolssiguya": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Eolssiguya"
+    ]
+  },
+  "train.rtm_startsoon": {
+    "category": "neutral",
+    "sounds": [
+      "korail/startsoon"
+    ]
+  },
+  "train.rtm_doorclose_drrr": {
+    "category": "neutral",
+    "sounds": [
+      "korail/doorclose_drrr"
+    ]
+  },
+  "train.rtm_kik": {
+    "category": "neutral",
+    "sounds": [
+      "korail/kik"
+    ]
+  },
+    "train.rtm_kopen": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_kopen"
+    ]
+  },
+    "train.rtm_kclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_kclose"
+    ]
+  },
+	"train.rtm_SMV1000_old_loop": {
+    "category": "neutral",
+    "sounds": [
+      "SMV1000_old/loop"
+    ]
+  },
+    "train.rtm_SMV1000_old_wing": {
+    "category": "neutral",
+    "sounds": [
+      "SMV1000_old/wing"
+    ]
+  },
+	"train.rtm_SMV1000_old_break": {
+    "category": "neutral",
+    "sounds": [
+      "SMV1000_old/break"
+    ]
+  },
+  "train.rtm_old_release": {
+    "category": "neutral",
+    "sounds": [
+      "old_release"
+    ]
+  },
+  "train.rtm_old_door_close": {
+    "category": "neutral",
+    "sounds": [
+      "old_door_close"
+    ]
+  },
+  "train.rtm_old_door_open": {
+    "category": "neutral",
+    "sounds": [
+      "old_door_open"
+    ]
+  },
+      "train.rtm_igbt1_1": {
+    "category": "neutral",
+    "sounds": [
+      "train/igbt1_1"
+    ]
+  },
+       "train.rtm_Eolindal": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Eolindal"
+    ]
+  },
+        "train.rtm_igbt1_2": {
+    "category": "neutral",
+    "sounds": [
+      "train/igbt1_2"
+    ]
+  },
+        "train.rtm_igbt1_3": {
+    "category": "neutral",
+    "sounds": [
+      "train/igbt1_3"
+    ]
+  },
+          "rtm_cloudPSDCLOSE": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE"
+    ]
+  },
+            "rtm_cloudPSDCLOSE3": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE3"
+    ]
+  },
+            "rtm_cloudPSDCLOSE5": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE5"
+    ]
+  },
+            "rtm_cloudPSDCLOSE6": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE6"
+    ]
+  },
+              "rtm_cloudPSDCLOSE7": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE7"
+    ]
+  },            "rtm_cloudPSDCLOSE8": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDCLOSE8"
+    ]
+  },
+          "rtm_cloudPSDOPEN": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN"
+    ]
+  },
+           "rtm_cloudPSDOPEN2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN2"
+    ]
+  }, 
+             "rtm_cloudPSDOPEN3": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN3"
+    ]
+  }, 
+             "rtm_cloudPSDOPEN4": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN4"
+    ]
+  }, 
+             "rtm_cloudPSDOPEN5": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN5"
+    ]
+  }, 
+             "rtm_cloudPSDOPEN6": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN6"
+    ]
+  }, 
+               "rtm_cloudPSDOPEN7": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN7"
+    ]
+  }, 
+               "rtm_cloudPSDOPEN8": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_cloudPSDOPEN8"
+    ]
+  }, 
+          "train.rtm_airdoorop": {
+    "category": "neutral",
+    "sounds": [
+      "train/airdooropen"
+    ]
+  },
+            "train.rtm_dtroclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/dtroclose"
+    ]
+  },
+        "train.rtm_closebell": {
+    "category": "neutral",
+    "sounds": [
+      "announce/doorclosewarn"
+    ]
+  },
+    "machine.rtm_cloudcard": {
+    "category": "neutral",
+    "sounds": [
+      "card"
+    ]
+  },
+          "train.rtm_airdoor": {
+    "category": "neutral",
+    "sounds": [
+      "train/airdoor"
+    ]
+  },
+   	"machine.rtm_PCPBell": {
+    "category": "neutral",
+    "sounds": [
+      "PCPBell"
+    ]
+  },
+    "machine.rtm_PCPDrrr": {
+    "category": "neutral",
+    "sounds": [
+      "PCPDrrr"
+    ]
+  },
+  "train.rtm_Dooropn": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Dooropn"
+    ]
+  },
+  "train.rtm_Doorcls": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_Doorcls"
+    ]
+  },
+  "train.rtm_4000_a0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_4000_a0"
+    ]
+  },
+  "train.rtm_4000_a1": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_4000_a1"
+    ]
+  },
+  "train.rtm_4000_a2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_4000_a2"
+    ]
+  },
+  "train.rtm_4000_s0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_4000_s0"
+    ]
+  },
+ "train.rtm_2000_a0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_2000_a0"
+    ]
+  },
+  "train.rtm_2000_a1": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_2000_a1"
+    ]
+  },
+  "train.rtm_2000_a2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_2000_a2"
+    ]
+  },
+  "train.rtm_2000_s0": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_2000_s0"
+    ]
+  },
+  "train.rtm_rtm_bgmsss": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_rtm_bgmsss"
+    ]
+  },
+  "train.rtm_dep": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_dep"
+    ]
+  },
+  "train.rtm_doorclswarn": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_doorclswarn"
+    ]
+  },
+  "train.rtm_metroclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/metroclose"
+    ]
+  },
+  "train.rtm_idsong": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_idsong"
+    ]
+  },
+  "train.rtm_doorcls2": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_doorcls2"
+    ]
+  },
+  "train.rtm_mtrdoorclose": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_mtrdoorclose"
+    ]
+  },
+  "train.rtm_seoulmetrols": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_seoulmetrols"
+    ]
+  },
+  "train.rtm_laststn": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_laststn"
+    ]
+  },
+  "train.rtm_logosong": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_logosong"
+    ]
+  },
+  "train.rtm_dwigbt_a0": {
+    "category": "neutral",
+    "sounds": [
+      "train/dwigbt_a0"
+    ]
+  },
+  "train.rtm_dwigbt_a1": {
+    "category": "neutral",
+    "sounds": [
+      "train/dwigbt_a01"
+    ]
+  },
+  "train.rtm_dwigbt_s0": {
+    "category": "neutral",
+    "sounds": [
+      "train/dwigbt_s0"
+    ]
+  },
+  "train.rtm_trailer": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_trailer"
+    ]
+  },
+  "train.rtm_transfer": {
+    "category": "neutral",
+    "sounds": [
+      "train/rtm_transfer"
+    ]
+  },
+  "train.rtm_doorclosebroadcast": {
+    "category": "neutral",
+    "sounds": [
+      "korail/doorclosebroadcast"
+    ]
+  }, 
+  "train.rtm_rotem_m20": {
+    "category": "neutral",
+    "sounds": [
+      "rotemigbt/m20"
+    ]
+  },
+  "train.rtm_rotem_m35": {
+    "category": "neutral",
+    "sounds": [
+      "rotemigbt/m35"
+    ]
+  },
+  "train.rtm_rotem_m": {
+    "category": "neutral",
+    "sounds": [
+      "rotemigbt/m"
+    ]
+  },
+  "train.rtm_rotem_run": {
+    "category": "neutral",
+    "sounds": [
+      "rotemigbt/run"
+    ]
+  },
+  "train.rtm_tunnel": {
+    "category": "neutral",
+    "sounds": [
+      "tunnel"
+    ]
+  },
+  "train.rtm_k1998close": {
+    "category": "neutral",
+    "sounds": [
+      "korail/k1998close"
+    ]
+  },
+  "train.rtm_k1998open": {
+    "category": "neutral",
+    "sounds": [
+      "korail/k1998open"
+    ]
+  },
+  "train.rtm_mL_nomal": {
+    "category": "neutral",
+    "sounds": [
+      "mugunghwal/trail_nomal"
+    ]
+  },
+  "train.rtm_rdchorn": {
+    "category": "neutral",
+    "sounds": [
+      "rdchorn"
+    ]
+  }
+}
+

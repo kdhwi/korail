@@ -1,0 +1,20 @@
+{
+  "signalName": "PSD",
+  "signalModel": "ModelSignal_PSD.mqo",
+  "signalTexture": "textures/signal/PSD.png",
+	"lightTexture": "textures/signal/PSD2.png",
+	"buttonTexture": "textures/signal/button_psd.png",
+  "modelPartsFixture": {
+  	"objects": ["obj1"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+  "modelPartsBody": {
+  	"objects": ["body", "light1", "light2"],
+  	"pos": [0.0, 0.0, 0.0]
+  },
+	"lights": [
+		"S(1) I(0) P(light1)",
+		"S(3) I(0) P(light2)"
+		],
+	"rotateBody": true
+}

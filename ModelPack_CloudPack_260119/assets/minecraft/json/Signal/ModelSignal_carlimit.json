@@ -1,0 +1,15 @@
+{
+   "signalName": "carlimit",
+   "signalModel": "signal/ModelSignal_carlimit.mqo",
+   "signalTexture": "textures/signal/carlimit.png",
+   "lightTexture": "textures/signal/bracket_l.png",
+   "buttonTexture": "textures/signal/button_carlimit.png",
+   "modelPartsFixture": {
+       "objects": ["obj1"],
+       "pos": [0.0, 0.0, 0.0]
+   },
+     "lights": [
+         "S(1) I(0) P(l)"
+         ],
+  "rotateBody": false
+}

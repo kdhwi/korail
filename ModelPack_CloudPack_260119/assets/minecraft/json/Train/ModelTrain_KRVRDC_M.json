@@ -1,0 +1,82 @@
+{
+
+"trainName": "CloudPack_KRVRDC_M",
+
+"trainType": "DC",
+
+"trainModel2": { "modelFile": "ModelTrain_KRVRDC_M.mqo",
+"textures": [
+		  ["base", "textures/train/KRVRDC/M.png"],
+          ["in", "textures/train/KRVRDC/in.png"],
+		  ["w", "textures/train/KRVRDC/W1.png"],
+		  ["wg", "textures/train/KRVRDC/wg.png"],
+		  ["badakmit", "textures/train/KRVRDC/Badakmit.png"],
+		  ["oksaek", "textures/train/KRVRDC/oksaek.png"],
+		  ["hoesaek", "textures/train/KRVRDC/hoesaek.png"],
+		  ["gyedan", "textures/train/KRVRDC/gyedan.png"],
+		  ["indoor", "textures/train/KRVRDC/indoor.png", "AlphaBlend"],
+		  ["chair", "textures/train/KRVRDC/chair.png"],
+		  ["hita", "textures/train/KRVRDC/hita.png"],
+		  ["perdoor", "textures/train/KRVRDC/perdoor.png", "Light"],
+		  ["roof", "textures/train/KRVRDC/roof.png"],
+		  ["subside", "textures/train/KRVRDC/subside.png"],
+		  ["sub", "textures/train/KRVRDC/sub.png"],
+		  ["keoteun", "textures/train/KRVRDC/keoteun.png"],
+		  ["dest", "textures/train/KRVRDC/dest.png"]
+		  ],
+		"rendererPath": "scripts/RenderKRVRDC.js"
+   },
+
+"bogieModel2": { "modelFile": "ModelBogie_KRVRDC.mqo",
+                   "textures": [["mat1", "textures/train/KRVRDC/bogie.png"]]},
+
+"buttonTexture": "textures/train/KRVRDC/button.png",
+
+  "sound_Stop": "train.rtm_dc40r_stn",
+  "sound_S_A": "train.rtm_dc40r_go-a",
+  "sound_Acceleration": "train.rtm_dc40r_a",
+  "sound_Deceleration": "train.rtm_dc40r_i",
+  "sound_D_S": "train.rtm_dc40r_i-stop",
+  "sound_BrakeRelease": "train.brakeR_w",
+  "sound_BrakeRelease2": "train.brakeR_w",
+  "sound_Horn": "train.rtm_wh_00l",
+
+"sound_DoorOpen": "sound_cloud2:train.rtm_k1998open",
+"sound_DoorClose": "sound_cloud2:train.rtm_k1998close",
+  
+"sound_Announcement": [["Eolindal", "sound_cloud2:train.rtm_Eolindal"], ["Station(Voice)", "sound_cloud2:train.rtm_rdcstn"]],
+
+"rollsignTexture": "textures/train/KRV1998/341/led.png",
+"rollsignNames": ["Mugunghwa", "E. Daegu > Masan", "E. Daegu < Masan", "E. Daegu > Bujeon", "E. Daegu < Bujeon", "E. Daegu > Jinju", "E. Daegu < Jinju", "E. Daegu > Taehwagang", "E. Daegu < Taehwagnag", "Pohang > E. Daegu", "Pohang < E. Daegu", "Gwangju Shuttle", "Group travel train"],
+"rollsigns": [
+	{
+    "uv": [0.0, 0.5, 0.0, 1.0],
+    "pos": [
+    [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]]
+	}
+],
+
+"slotPos": [
+	[0.93, 0, 9.03, 2],   [0.93, 0, 7.99, 2],   [0.93, 0, 6.95, 2],   [0.93, 0, 5.91, 2], 
+	[0.93, 0, 4.87, 2],   [0.93, 0, 3.83, 2],   [0.93, 0, 2.79, 2],   [0.93, 0, 1.75, 2], 
+	[0.93, 0, 0.71, 2],   [0.93, 0, -0.33, 2],  [0.93, 0, -1.37, 2],  [0.93, 0, -2.41, 2], 
+	[0.93, 0, -3.45, 2], 
+	[-0.93, 0, 9.03, 2],  [-0.93, 0, 7.99, 2],  [-0.93, 0, 6.95, 2],  [-0.93, 0, 5.91, 2], 
+	[-0.93, 0, 4.87, 2],  [-0.93, 0, 3.83, 2],  [-0.93, 0, 2.79, 2],  [-0.93, 0, 1.75, 2], 
+	[-0.93, 0, 0.71, 2],  [-0.93, 0, -0.33, 2], [-0.93, 0, -1.37, 2], [-0.93, 0, -2.41, 2], 
+	[-0.93, 0, -3.45, 2],
+	
+	[1.1, 0, -6.35, 2],  [1.1, 0, -6.81, 2],  [1.1, 0, -7.22, 2], 
+	[1.1, 0, -7.68, 2],  [1.1, 0, -8.12, 2],  [1.1, 0, -8.57, 2], 
+	[-1.1, 0, -6.35, 2], [-1.1, 0, -6.81, 2], [-1.1, 0, -7.22, 2], 
+	[-1.1, 0, -7.68, 2], [-1.1, 0, -8.12, 2], [-1.1, 0, -8.57, 2]
+],
+
+"customIconTexture": "minecraft:textures/train/GEC/icon_rdc.png",
+"playerPos": [[0.8, 0.2, 9.2], [-0.8, 0.2, -9.2]],
+"bogiePos": [[0.0, 0.0, 7.3], [0.0, 0.0, -7.3]],
+"maxSpeed": [0.36, 0.63, 1.05, 1.2, 1.68],
+"trainDistance": 10.75,
+"doCulling": true,
+"smoothing": true
+}

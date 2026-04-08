@@ -1,0 +1,15 @@
+{
+  "name": "gukhoe",
+  "model": {
+      "modelFile": "soyuz2.mqo",
+ 		"textures": [
+		["mat1", "textures/nsac/gukhoe.png"]]
+		
+	},
+		
+  "buttonTexture": "textures/nsac/button_gukhoe.png",
+  "machineType": "Light",
+  "rotateByMetadata": true,
+  "smoothing": true,
+  "accuracy": "LOW"
+}
